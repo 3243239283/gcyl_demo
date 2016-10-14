@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/detail.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+	<div class="detail">
+		<p>
+			<!-- 后退 -->
+			<a href="list.html"><i class="iconfont fl">&#xe607;</i></a>详情
+			<!-- 转发 -->
+			<a href="javascript:" class="forward fr"><i class="iconfont">&#xe60c;</i></a>
+			<!-- 关注 -->
+			<a href="javascript:" class="follow fr"><i class="iconfont">&#xe608;</i></a>
+		</p>
+	</div>
+	<div class="banner">
+		<div class="flexslider">
+	  		<ul class="slides">
+	    		<li><a href="javascript:"><img src="img/detail/banner01.png" /></a></li>
+	    		<li><a href="javascript:"><img src="img/detail/banner02.png" /></a></li>
+	            <li><a href="javascript:"><img src="img/detail/banner01.png" /></a></li>
+	            <li><a href="javascript:"><img src="img/detail/banner02.png" /></a></li>
+	  		</ul>
+	   </div>
+	</div>
+	<div class="introduce">
+		<p class="name">悟牌活性水杯</p>
+		<p class="in_text">
+			会员价:<span class="hy_money">￥2680.00</span>
+			馈赠积分:<span class="jf_integral">1072.0000</span>
+		</p>
+		<p class="pin">月销<span>0</span>笔</p>
+	</div>
+	<div class="gift">
+		<p>本店按消费金额的40.00%馈赠消费积分</p>
+		<p>2016.09.29~2016.09.29</p>
+	</div>
+	<div class="introduction">
+		<p>富氢水的功效:去除恶性自由基 增强免疫力 清除体内毒素 修复受损细胞</p>
+		<h3>悟牌 富氢活水仪</h3>
+		<p>1.电解活化两分钟模式:生成约680PPB(680万/毫升)浓度富氢水</p>
+		<p>1.电解活化三分钟模式:生成约900PPB(900万/毫升)浓度富氢水</p>
+		<p>水温0-70度，建议用45度左右温水。制好的富氢水最好在短时间内饮完,因为氢太活跃了会随着时间而减少。</p>
+	</div>
+	<div class="shopping">
+		<a class="join fl" href="javascript:">加入购物车</a>
+		<a class="now fl" href="javascript:">立即抢购</a>
+		<br class="clear">
+	</div>
+
+	<script>
+		(function(){
+		    var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+		    __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+		    _orientationChange = function(){
+		        _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+		        _zoom = _w / 640;
+		        __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+		    };
+		    __style.setAttribute("zoom",_zoom);
+		    _orientationChange();
+		    window.addEventListener("resize",_orientationChange,false);
+		})();
+	</script>
+	<!-- 引入require模块，关联../js/detail.js -->
+	<script src="plugin/requirejs/require.js" data-main="js/detail"></script>
+  	<script src="js/require-config.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,164 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+html{
+	font-size: 62.5%;
+	background: #f0f0f0;
+}
+body {
+  line-height: 1;
+  background: #f0f0f0;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a img {
+  border: none;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+main {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]),
+[hidden] {
+  display: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+a:active,
+a:focus {
+  outline: none;
+}
+input,
+textarea {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  -webkit-user-select: none;
+  background-color: #f2f2f2;
+}
+
+/*自定义样式*/
+.clear{clear: both;}
+.fl{float:left;}
+.fr{float:right;}
+.pay{background: #ff6633;color: #FFFFFF;padding: 10px 40px;border-radius: 10px;}
+
+/*首页底部公共样式*/
+.footer{text-align: center;background: #f9f9f9;position: fixed;bottom: 0;width: 100%;}
+.footer a{display: inline-block;margin:0 30px;color:#afadb8;}
+.footer a i.iconfont{font-size: 4rem;line-height: 70px;}
+.footer a p{font-size: 2.2rem;margin: 0 0 5px 0;}
+.footer a.options{margin:0 15px;}
+.footer a.options img{margin: -30px 0 0 0;}
+.footer a.selected{color: #676479;}
+

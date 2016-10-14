@@ -1,0 +1,88 @@
+.fixed_head{position: fixed;top:0;width:100%;z-index: 2;}
+.user{background: #06c1ae;}
+.user .headimg{padding:20px 33px 0;}
+.user .headimg .himg{display:inline-block;margin: 0 21px 21px 0;}
+.user .headimg .usermore{display:inline-block;margin: 40px 0;}
+.user .headimg .htxt .tlt .tlt_name{font-size:3rem;color:#FFFFFF;}
+.user .headimg .htxt .tlt .tlt_id{font-size:2.4rem;color:#FFFFFF;}
+.user .headimg .htxt .tlt{line-height: 35px;margin: 20px 0px;}
+.user .headimg .usermore a i.iconfont{font-size: 3.2rem;color: #FFFFFF;}
+
+.grade{font-size:2.6rem;color:#666666;line-height:68px;text-align: center;background: #ffffff;}/*margin-bottom: 21px;*/
+.grade a{display:inline-block;padding: 0 25px;}
+.grade a.gra_center{border-right: 1px solid #cccccc;border-left: 1px solid #cccccc;}
+.grade a span.g_name{color:#fa8d3d;}
+
+.order{background:#FFFFFF;margin:21px 0;margin-top: 240px;}/*border: 1px solid #cccccc;*/
+.order .orbox{padding:23px 30px;border-bottom: 1px solid #e6e6e6;}
+.order .orbox span{font-size: 3rem;color: #333333;}
+.order .orbox a{font-size:2.4rem;color:#999999;}
+.order .orbox a i.iconfont{font-size:2rem;}
+
+.state{text-align:center;}
+.state a{display:inline-block;margin:0 40px;position: relative;}
+.state a i.iconfont{font-size:3.7rem;color:#adadad;padding: 16px 0 14px 0;display: block;}
+.state a span{display:block;font-size:2.2rem;color:#666666;margin-bottom: 14px;}
+.state a span.number{position:absolute;top:10px;right:5px;border-radius: 50%;border:2px solid #fc4326;color:#fc4326;width: 22px;line-height: 22px;height: 22px;text-align: center;font-size:1.8rem;}
+
+.classification{margin: 0 0 140px 0;}
+.classification ul li{line-height: 66px;padding: 0 33px;}
+.classification ul li a{display:block;}
+.classification ul li a i{font-size:3.2rem;}
+.classification ul li a i:last-child{color: #adadad;float: right;}
+.classification ul li a span{font-size:2.8rem;color:#333333;margin-left: 22px;}
+i.money{color:#faba3d;}
+i.code{color:#fe7a71;}
+i.credit{color:#faba3d;}
+i.collection{color:#8dcf37;}
+i.message{color:#fa8d3d;}
+i.city{color:#8dcf37;}
+i.realname{color:#faba3d;}
+i.integral{color:#fa8d3d;}
+i.join{color:#fe7a71;}
+i.distribution{color:#faba3d;}
+i.service{color:#8dcf37;}
+
+.classification ul{margin-bottom:10px;background:#FFFFFF;}
+.classification ul:last-child{margin-bottom:21px;}
+.classification ul li{border-bottom:1px solid #e6e6e6;}
+.classification ul li:last-child{border:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

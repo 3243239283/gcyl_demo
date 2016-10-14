@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/shop.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+	<div class="shop">
+		<p>
+			<!-- 后退 -->
+			<a href="list.html"><i class="iconfont fl">&#xe607;</i></a>商铺
+			<!-- 转发 -->
+			<a href="javascript:" class="forward fr"><i class="iconfont">&#xe60c;</i></a>
+			<!-- 关注 -->
+			<a href="javascript:" class="follow fr"><i class="iconfont">&#xe608;</i></a>
+		</p>
+	</div>
+	<div class="beautiful">
+		<img src="img/detail.png" alt="" />
+		<div class="beau_txt">
+			<p>陌陌觅食</p>
+		</div>
+	</div>
+	<div class="merchants">
+		<h3>商家信息</h3>
+		<div class="chants">
+			<div class="chantxt">
+				<p class="store">陌陌觅食(西湖店)</p>
+				<p>
+					<i class="iconfont">&#xe60b;&#xe60b;&#xe60b;&#xe60b;&#xe60a;</i>
+					<span class="money">人均:￥62</span>
+				</p>
+			</div>
+			<div class="paybox fr">
+				<a class="pay" href="javascript:">买单</a>
+			</div>
+			<div class="map">
+				<div class="add_txt">
+					<a href="javascript:">
+						<i class="iconfont">&#xe606;</i>
+						<span>西湖区翠苑街道文二西路352号</span>
+					</a>
+				</div>
+				<div class="phonenum"><a href="javascript:"><i class="iconfont">&#xe609;</i></a></div>
+			</div>
+		</div>
+	</div>
+	<div class="gift">
+		<p>本店按消费金额的40.00%馈赠消费积分</p>
+		<p>2016.09.29~2016.09.29</p>
+	</div>
+	<div class="product">
+		<a href="detail.html">
+			<div class="duct">
+				<img src="img/product/product.png" alt="">
+				<div class="imgtxt">
+					<p>悟牌活性水杯</p>
+					<p>会员价:<span class="money">￥2680.00</span></p>
+					<p>馈赠积分:<span class="gral">1072.0000</span></p>
+				</div>
+				<br class="clear">
+			</div>			
+		</a>
+	</div>
+	<script>
+		(function(){
+		    var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+		    __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+		    _orientationChange = function(){
+		        _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+		        _zoom = _w / 640;
+		        __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+		    };
+		    __style.setAttribute("zoom",_zoom);
+		    _orientationChange();
+		    window.addEventListener("resize",_orientationChange,false);
+		})();
+	</script>
+</body>
+</html> 
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/my.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="money">
+		<p><a href="../../myself.html"><i class="iconfont">&#xe607;</i></a><span>财务管理</span></p>
+	</div>
+	<div class="balance">
+		<ul>
+			<li class="lance">
+				<p class="ba_tlt">
+					<span>钱包余额(元)</span>					
+					<a class="fr" href="javascript:"><i class="iconfont">&#xe61e;</i>明细</a>
+					<a class="fr" href="javascript:"><i class="iconfont">&#xe61d;</i>...</a>
+				</p>
+				<p class="num">0.00</p>
+			</li>
+			<li class="tegral">
+				<p class="ba_tlt">
+					<span>总积分余额(积分)</span>					
+					<a class="fr" href="javascript:"><i class="iconfont">&#xe61e;</i>明细</a>
+					<a class="fr" href="javascript:"><i class="iconfont">&#xe61d;</i>...</a>
+				</p>
+				<p class="num">0.00</p>
+				<div class="charge">
+					<a href="javascript:"><p>充值积分</p><span class="branch">0.00</span></a>
+					<a href="javascript:"><p>消费积分</p><span class="branch">0.00</span></a>
+				</div>
+			</li>
+			<li class="cher">
+				<p class="ba_tlt">
+					<span>积分券(积分)</span>					
+					<a class="fr" href="javascript:"><i class="iconfont">&#xe61e;</i>明细</a>
+				</p>
+				<p class="num">0.00</p>
+			</li>
+			<li class="thigh">
+				<p class="ba_tlt">
+					<span>期权股(股)</span>					
+					<a class="fr" href="javascript:"><i class="iconfont">&#xe61e;</i>明细</a>
+				</p>
+				<p class="num">0</p>
+			</li>
+			<li class="benefit">
+				<a href="javascript:">
+					<div class="be_txt">
+						<p>百利红</p>
+						<p>100天存取灵活,稳健收益</p>
+					</div>
+					<i class="iconfont fr">&#xe60d;</i>
+				</a>
+			</li>
+		</ul>
+	</div>
+<script>
+    (function(){
+        var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+        __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+        _orientationChange = function(){
+            _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+            _zoom = _w / 640;
+            __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+        };
+        __style.setAttribute("zoom",_zoom);
+        _orientationChange();
+        window.addEventListener("resize",_orientationChange,false);
+    })();
+</script>
+</body>
+</html> 
+
+

@@ -1,0 +1,33 @@
+.header{background: #06c1ae;color: #FFFFFF;padding: 15px 0;overflow:hidden;}
+.header .titlt{width:20%;font-size: 3.2rem;float: left;text-align: center;line-height: 57px;}
+.header .titlt i.iconfont{font-size: 3.2rem;}
+.header .more{width: 80%;float: left;position: relative;}
+.header .more .iconfont{font-size:4rem;color:#dedede;width: 57px;height: 57px;position: absolute;left: 0;top: 0;line-height: 57px;text-align: center;}
+.header .more input{text-indent:55px;border:none;padding:0 10px;border-radius: 5px;width:90%;height: 57px;font-size: 1.4rem;}
+
+.container{margin: 10px 0 140px;}
+.container .tainer{border: 1px solid #e6e6e6;background: #FFFFFF;padding: 2.5rem 0;text-align: center;}
+.container .tainer a{display: inline-block;margin: 2rem 1.3rem;}
+.container .tainer a p{font-size: 3rem;color: #333333;margin:1.7rem 0 0 0;}
+
+.container .recommend{border: 1px solid #FFFFFF;background: #FFFFFF;margin: 10px 0 0 0;}
+.container .recommend .hot{margin: 30px 30px;}
+.container .recommend h3{font-size: 3.2rem;line-height: 65px;margin: 0 30px;border-bottom: 1px solid #d2d2d2;}
+.container .recommend .hot .shop .shopimg{position:relative;margin-left: 135px;}
+.container .recommend .hot .shop .shopimg img{display:inline-block;position:absolute;left: -135px;top:0;margin: 0;}
+.container .recommend .hot .shop .shopimg .shoptext{height: 115px;}
+.container .recommend .hot .shop .shopimg .shoptext p{color: #272727;line-height: 50px;text-indent: 20px;font-size: 3.2rem;}
+.container .recommend .hot .shop .shopimg .shoptext .text{margin: 0 0 15px 0;}
+.container .recommend .hot .shop .shopimg .shoptext p span.money{font-size: 3rem;color:#e98e48;margin-right: 145px;}
+.container .recommend .hot .shop .shopimg .shoptext p span.men_money{font-size: 3rem;color:#7f7f7f;}
+
+
+
+
+
+
+
+
+
+
+
