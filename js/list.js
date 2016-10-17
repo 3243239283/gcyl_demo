@@ -4,7 +4,7 @@ define(['jquery','laytpl'],function(jquery,laytpl){
         url:"js/json/list.json",
         dataType:"json",
         type:"get",
-        success:function(data){            
+        success:function(data){       
             var tpl = document.getElementById('tpl').innerHTML; //读取模版
             //方式一：异步渲染（推荐）
             laytpl(tpl).render(data, function(render){

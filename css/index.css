@@ -3,7 +3,7 @@
 .header .titlt i.iconfont{font-size: 3.2rem;}
 .header .more{width: 80%;float: left;position: relative;}
 .header .more .iconfont{font-size:4rem;color:#dedede;width: 57px;height: 57px;position: absolute;left: 0;top: 0;line-height: 57px;text-align: center;}
-.header .more input{text-indent:55px;border:none;padding:0 10px;border-radius: 5px;width:90%;height: 57px;font-size: 1.4rem;}
+.header .more input{text-indent:55px;border:none;padding:0 10px;border-radius: 5px;width:90%;height: 57px;font-size: 3rem;}
 
 .container{margin: 10px 0 140px;}
 .container .tainer{border: 1px solid #e6e6e6;background: #FFFFFF;padding: 2.5rem 0;text-align: center;}

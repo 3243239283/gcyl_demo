@@ -1,0 +1,31 @@
+.option{position:fixed;top:0;width:100%;z-index: 2;font-size: 3.2rem;line-height: 80px;height: 80px;background: #06c1ae;color: #FFFFFF;text-align: center;}
+.option>p{padding: 0 38px;}
+.option a.calendar{font-size: 1.8rem;}
+
+.stock{margin: 80px 0 15px 0;background: #FFFFFF;}
+.stock .title{padding: 15px 33px 20px;font-size: 3.2rem;color: #333333;}
+.stock .txt{font-size: 3rem;padding: 0 33px;color: #f6a112;}
+.stock .sto_num{position: relative;padding:60px 33px 40px;text-align: center;}
+.stock .sto_num span{color:red;font-size: 7rem;}
+.stock .sto_son{display: inline-block;position:absolute;font-size: 3rem;color: #f6a112;right: 50px;top: 93px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

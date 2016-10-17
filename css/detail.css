@@ -9,6 +9,7 @@
 .introduce{background:#FFFFFF;padding: 45px 33px;margin: 15px 0;}
 .introduce .name{font-size:3rem;color: #333333;margin-bottom: 25px;}
 .introduce .in_text{font-size:2.4rem;color:#333333;}
+.introduce .in_text a{display:inline-block;float:left;line-height:30px;}
 .introduce .in_text .hy_money{font-size:3.2rem;color:#f6a112;padding: 0 10px;}
 .introduce .in_text .jf_integral{font-size:2.4rem;padding: 0 10px;}
 .introduce .pin{font-size:1.4rem;text-align:right;color: #7c7c7c;margin: 5px 0;}

@@ -64,15 +64,15 @@
 		</div>
 	</div>
 	<div class="footer">
-		<a href="javascript:" class="selected">
+		<a href="index.html" class="selected">
 			<i class="iconfont">&#xe600;</i>
 			<p>首页</p>
 		</a>
-		<a href="javascript:">
+		<a class="charitable" href="javascript:">
 			<i class="iconfont">&#xe602;</i>
 			<p>慈善</p>
 		</a>
-		<a href="javascript:" class="options">
+		<a href="option.html" class="options">
 			<img src="img/55.png" alt="" />
 		</a>
 		<a href="javascript:">
@@ -98,6 +98,9 @@
 		    window.addEventListener("resize",_orientationChange,false);
 		})();
 	</script>
+	<!-- 引入require模块，关联../js/list.js -->
+	<script src="plugin/requirejs/require.js" data-main="js/index"></script>
+  	<script src="js/require-config.js"></script>
 </body>
 </html> 
 
