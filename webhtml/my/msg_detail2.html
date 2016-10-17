@@ -12,17 +12,18 @@
 </head>
 <body class="zoom">
     <div class="shop">
-        <p> <a href="agent.html"><i class="iconfont fl">&#xe607;</i></a>竞拍须知</p>
+        <p> <a href="message.html"><i class="iconfont fl">&#xe607;</i></a>消息详情</p>
     </div>
-    <div class="agentnext_txt">
-        <p>竞拍须知</p>
-    </div>
-    <div class="agreement">
-        <input id="save" type="checkbox">我已阅读并遵循竞拍须知
-    </div>
-    <div class="agentnext_btn">
-        <a class="next" href="auction.html">下一步</a>
-    </div>
+    <div id="msg_detail2"></div>
+    <!--消息模板-->
+    <script id="tpl4" type="text/html">
+        {{# for(var i = 0, len = d.list2.length; i < len; i++){ }}
+          <div class="msgbox">
+                <p>{{d.list2[i].time}}</p>
+                <div class="msgtxt">{{d.list2[i].msg}}</div>
+            </div>
+        {{# } }}
+    </script>
         
     <script>
         (function(){
@@ -38,8 +39,9 @@
             window.addEventListener("resize",_orientationChange,false);
         })();
     </script>
+
     <!--模块化工具-->
-    <script src="../../plugin/requirejs/require.js" data-main="../../js/agent"></script>
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/messagetwo"></script>
     <script src="../../js/require-config.js"></script>
 </body>
 </html> 

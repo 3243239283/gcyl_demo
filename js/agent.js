@@ -1,27 +1,59 @@
-define(['jquery','leara','learadata1','learadata2','cssjs!learacss'],function(jquery,leara){
-    var area1 = new LArea();
-    area1.init({
-        'trigger': '#city', 		//触发选择控件的文本框，同时选择完毕后name属性输出到该位置
-        'valueTo': '#agen_city', 	//选择完毕后id属性输出到该位置
-        'keys': {
-            id: 'id',
-            name: 'name'
-        }, //绑定数据源相关字段 id对应valueTo的value属性输出 name对应trigger的value属性输出
-        'type': 1, //数据源类型
-        'data': LAreaData //数据源
+define(['jquery','validate','layer','cssjs!layercss'],function(jquery,validate,layer){
+    /*竞拍须知*/
+    $('.next').click(function(){        
+        var $save=$('#save').is(':checked');
+        if($save==true){
+            return true;
+        }else{
+            layer.open({
+                style:'padding:40px 0;color:#FFFFFF;font-size:3.2rem;',
+                content: '请阅读并遵循竞拍规则',
+                skin: 'msg',
+                time: 2 //2秒后自动关闭
+            });
+            return false;
+        }
     });
-    area1.value=[1,13,3];//控制初始位置，注意：该方法并不会影响到input的value
-    var area2 = new LArea();
-    area2.init({
-        'trigger': '#demo2',
-        'valueTo': '#value2',
-        'keys': {
-            id: 'value',
-            name: 'text'
+    /*确认出价*/
+    /*输入金额校验*/
+    $('.offerform').validate({
+        rules: {
+          moneyinput:{
+              required: true,
+              digits:true
+          }
         },
-        'type': 2,
-        'data': [provs_data, citys_data, dists_data]
+        messages: {
+            moneyinput:{
+                required:'金额不能为空',
+                digits:'请输入正确的金额'
+            }
+        },
+        errorLabelContainer: '.errorbox',
+        submitHandler:function(){
+            layer.open({
+                style: 'color:#333333;font-size:3.2rem;line-height:50px;',
+                content: '<p>出价成功！您的光彩币已被冻结,</p><p>30天后释放请耐心等待竞拍结果</p>',
+                btn: '确定'
+            });
+        }
     });
-
-
+    $('.offernext').click(function(){
+        $('.offerform').submit();
+    })
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

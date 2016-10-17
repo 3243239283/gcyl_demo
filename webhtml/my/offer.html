@@ -12,18 +12,20 @@
 </head>
 <body class="zoom">
     <div class="shop">
-        <p> <a href="agent.html"><i class="iconfont fl">&#xe607;</i></a>竞拍须知</p>
+        <p><a href="auction.html"><i class="iconfont fl">&#xe607;</i></a>出价</p>
     </div>
-    <div class="agentnext_txt">
-        <p>竞拍须知</p>
-    </div>
-    <div class="agreement">
-        <input id="save" type="checkbox">我已阅读并遵循竞拍须知
-    </div>
-    <div class="agentnext_btn">
-        <a class="next" href="auction.html">下一步</a>
-    </div>
-        
+    <form class="offerform">
+        <div class="offer">
+            <p class="of_money">当前起拍价200.00万元</p>
+            <p class="money_num">出价:
+                <label class="fr"><input class="moneyinput" name="moneyinput" type="text" placeholder="请输入您的出价"/>万元</label>
+            </p>
+            <div class="errorbox"></div>
+        </div>
+        <div class="auction_btn">
+            <a class="offernext" href="javascript:">确认出价</a>
+        </div>
+    </form>
     <script>
         (function(){
             var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
@@ -38,6 +40,7 @@
             window.addEventListener("resize",_orientationChange,false);
         })();
     </script>
+
     <!--模块化工具-->
     <script src="../../plugin/requirejs/require.js" data-main="../../js/agent"></script>
     <script src="../../js/require-config.js"></script>

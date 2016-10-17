@@ -9,7 +9,7 @@
 .user .headimg .usermore a i.iconfont{font-size: 3.2rem;color: #FFFFFF;}
 
 .grade{font-size:2.6rem;color:#666666;line-height:68px;text-align: center;background: #ffffff;}/*margin-bottom: 21px;*/
-.grade a{display:inline-block;padding: 0 25px;}
+.grade a{display:inline-block;padding: 0 5px;}
 .grade a.gra_center{border-right: 1px solid #cccccc;border-left: 1px solid #cccccc;}
 .grade a span.g_name{color:#fa8d3d;}
 
@@ -20,7 +20,7 @@
 .order .orbox a i.iconfont{font-size:2rem;}
 
 .state{text-align:center;}
-.state a{display:inline-block;margin:0 40px;position: relative;}
+.state a{display:inline-block;margin:0 30px;position: relative;}
 .state a i.iconfont{font-size:3.7rem;color:#adadad;padding: 16px 0 14px 0;display: block;}
 .state a span{display:block;font-size:2.2rem;color:#666666;margin-bottom: 14px;}
 .state a span.number{position:absolute;top:10px;right:5px;border-radius: 50%;border:2px solid #fc4326;color:#fc4326;width: 22px;line-height: 22px;height: 22px;text-align: center;font-size:1.8rem;}

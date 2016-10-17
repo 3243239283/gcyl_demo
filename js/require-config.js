@@ -26,16 +26,13 @@
 //2、逐一制定模块路径
 require.config({
     paths: {
-        "jquery": "../plugin/jquery/jquery.min",                     //加载jquery
+        "jquery": "../plugin/jquery/jquery",                     //加载jquery
+        "validate":"../plugin/validata/jquery.validate",
         "flexslider":"../plugin/flexslider/jquery.flexslider-min",   //flexslider插件路径加载
         "laytpl":"../plugin/laytpl/laytpl",
-
-        "leara":"../plugin/larea/js/larea",
-        "learadata1":"../plugin/larea/js/LAreaData1",
-        "learadata2":"../plugin/larea/js/LAreaData2",
+        "layer":"../plugin/layermobil/layer",
         //css文件的定义方法
-        "learacss":"../plugin/larea/css/LArea",
-
+        "layercss":"../plugin/layermobil/layer",
         "flexslidercss": "../plugin/flexslider/flexslider"      //异步请求flexslider插件需要的.css文件
     },
     waitSeconds: 10 ,
@@ -51,10 +48,10 @@ require.config({
             deps:['jquery'],
             exports:"flexslider"
         },
-        //城市选择插件
-        "leara":{
+        //弹窗
+        "layer":{
             deps:['jquery'],
-            exports:"leara"
+            exports:"layer"
         }
     }
 

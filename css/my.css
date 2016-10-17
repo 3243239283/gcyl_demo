@@ -93,6 +93,10 @@
 #msg_detail .msgbox{padding: 0 64px;margin-bottom: 40px;}
 #msg_detail .msgbox p:first-child{line-height:95px;font-size: 2.4rem;color:#999999;text-align: center;}
 #msg_detail .msgbox .msgtxt{background: #FFFFFF;border-radius: 5px;border: 1px solid #cccccc;color: #666666;font-size: 3rem;line-height: 35px;padding: 25px 40px;}
+#msg_detail2{margin: 80px 0 15px;}
+#msg_detail2 .msgbox{padding: 0 64px;margin-bottom: 40px;}
+#msg_detail2 .msgbox p:first-child{line-height:95px;font-size: 2.4rem;color:#999999;text-align: center;}
+#msg_detail2 .msgbox .msgtxt{background: #FFFFFF;border-radius: 5px;border: 1px solid #cccccc;color: #666666;font-size: 3rem;line-height: 35px;padding: 25px 40px;}
 
 /* 申请成为城市代理 */
 .agent{margin: 80px 0 0;background: #FFFFFF;}
@@ -114,13 +118,15 @@
 .agentnext_txt{margin: 80px 0 0;background: #FFFFFF;padding: 40px 50px;min-height:500px;}
 .agentnext_txt p{font-size:2.4rem;line-height: 30px;}
 
+.auction_btn{width:100%;position:fixed;bottom:70px;}
+.auction_btn a{display:block;line-height:98px;margin:0 39px;background:#06c1ae;text-align:center;font-size:3.6rem;color:#FFFFFF;border-radius:5px;}
 
+.offer{margin: 80px 0 0;}
+.offer p.of_money{padding:15px 33px;font-size:3rem;color: #fa8d3d;}
+.offer p.money_num{padding:15px 33px;font-size:3rem;background:#FFFFFF;line-height:40px;color:#333333;}
+.offer p.money_num input{font-size:3rem;border:none;}
 
-
-
-
-
-
+.offerform .offer .errorbox{padding: 15px 33px;font-size: 3rem;color: red;text-align: center;}
 
 
 

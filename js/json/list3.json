@@ -2,26 +2,26 @@
 	"list":[
 		{
 			"imgsrc": "img/hot01.png",
-			"name": "于大波",
-			"distance": 4.75,
+			"name": "于三波",
+			"distance": 6,
 			"people":60,
-			"address":"西湖区翠苑街道文二西路352号",
+			"address":"文二西路",
 			"discount":"买单立享9.5折优惠"
 		},
 		{
 			"imgsrc": "img/hot01.png",
-			"name": "于大波",
-			"distance": 8.8,
+			"name": "于三波",
+			"distance": 6,
 			"people":40,
-			"address":"西湖区翠苑",
+			"address":"文二西路",
 			"discount":"买单立享9.5折优惠"
 		},
 		{
 			"imgsrc": "img/hot01.png",
-			"name": "于大波",
-			"distance": 6.5,
+			"name": "于三波",
+			"distance":6,
 			"people":50,
-			"address":"文二西路352号",
+			"address":"文二西路",
 			"discount":"买单立享9.5折优惠"
 		}
 	]
