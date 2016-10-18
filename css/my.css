@@ -128,6 +128,38 @@
 
 .offerform .offer .errorbox{padding: 15px 33px;font-size: 3rem;color: red;text-align: center;}
 
+/* 实名认证 */
+.real{position: fixed;top: 0;width: 100%;z-index: 2;font-size: 3.2rem;line-height: 80px;height: 80px;background: #06c1ae;color: #FFFFFF;text-align: center;}
+.real p{padding: 0 38px;}
+.real a i.iconfont {font-size: 3.2rem;}
+
+.realname {margin: 90px 0 15px;}
+.realname .real_list{border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;margin: 0 0 15px 0;padding: 0 33px;background: #FFFFFF;}
+.realname .real_list ul li{list-style: none;font-size: 2.4rem;line-height:80px;color:#333333;}
+.realname .real_list ul li input{width:70%;border:none;font-size2.4rem;float: right;line-height: 80px;padding: 0;margin: 0;font-size: 2.4rem;}
+.realname .real_list ul li:first-child{border-bottom: 1px solid #e6e6e6;}
+.realname .real_photo .photobox{background:#FFFFFF;font-size:2.4rem;color:#333333;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;overflow: hidden;padding-bottom: 30px;}
+.realname .real_photo .photobox:first-child{margin-bottom:15px;}
+.realname .real_photo .photobox>p{margin:30px 0 30px 66px;}
+.realname .real_photo .photobox .box{display:inline-block;width: 50%;float: left;}
+.realname .real_photo .photobox .box>p{margin:0 0 0 0;text-indent: 66px;}
+
+.realname .real_photo .photobox .box .up{width: 200px;min-height: 200px;border:1px solid #e6e6e6;margin: 0 auto;text-align: center;}
+.realname .real_photo .photobox .box .up i.iconfont{font-size: 10rem;color: #b1afaf;padding: 40px 0 10px 0;display: block;}
+.realbtn a{display: block;line-height: 98px;margin: 30px 39px 0;background: #06c1ae;text-align: center;font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
+.real_errorbox{font-size: 2.4rem;color: red;margin: 0 66px;line-height: 30px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

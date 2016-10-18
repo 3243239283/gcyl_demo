@@ -28,6 +28,7 @@ require.config({
     paths: {
         "jquery": "../plugin/jquery/jquery",                     //加载jquery
         "validate":"../plugin/validata/jquery.validate",
+        "validMethod":"../js/validMethod",
         "flexslider":"../plugin/flexslider/jquery.flexslider-min",   //flexslider插件路径加载
         "laytpl":"../plugin/laytpl/laytpl",
         "layer":"../plugin/layermobil/layer",
@@ -45,13 +46,16 @@ require.config({
     shim:{
         //调用layer之前，必须先加载jquery.js。layer插件需要在jq的环境下才能运行。
         "flexslider":{
-            deps:['jquery'],
+            deps:["jquery"],
             exports:"flexslider"
         },
         //弹窗
         "layer":{
-            deps:['jquery'],
+            deps:["jquery"],
             exports:"layer"
+        },
+        "validMethod":{
+            deps:["validate"]
         }
     }
 
