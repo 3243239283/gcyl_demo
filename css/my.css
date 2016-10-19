@@ -149,17 +149,25 @@
 .realbtn a{display: block;line-height: 98px;margin: 30px 39px 0;background: #06c1ae;text-align: center;font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
 .real_errorbox{font-size: 2.4rem;color: red;margin: 0 66px;line-height: 30px;}
 
+/* 积分规则 */
+.rule{margin: 80px 0 15px;font-size: 1.4rem;color: #333333;padding: 40px 50px 0;}
+.rule p{line-height:30px;}
 
-
-
-
-
-
-
-
-
-
-
+/* 我要加盟 */
+.join{margin: 80px 0 0;}
+.join .j_box{border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;margin: 0 0 15px 0;padding: 0 33px;background: #FFFFFF;overflow: hidden;}
+.join .j_box ul li {border-bottom: 1px solid #e6e6e6;list-style: none;font-size: 2.4rem;line-height: 80px;color: #333333;}
+.join .j_box ul li:last-child{border:none;}
+.join .j_box ul li input {width: 70%;border: none;float: right;line-height: 80px;padding: 0;margin: 0;font-size: 2.4rem;}
+.join .j_box ul li textarea{width: 70%;height:160px;border: none;float: right;line-height: 80px;padding: 0;margin: 0;font-size: 3rem;}
+.join .license{margin: 0 33px 15px;font-size: 2.4rem;color: #333333;border: 1px solid #b1afaf;text-align: center;background:#FFFFFF;border-radius: 5px;}
+.join .license a{display: inline-block;width: 200px;height: 200px;margin: 20px 0;}
+.join .license a i.iconfont{font-size: 10rem;color: #b1afaf;padding:10px 0 30px 0;display: block;}
+.protocol {font-size: 2.4rem;line-height: 30px;color: #666666;margin: 20px 20px 20px;}
+.protocol input {zoom: 235%;vertical-align: sub;}
+.join_btn {width: 100%;margin-top: 80px;}
+.join_btn a {display: block;line-height: 98px;margin: 0 39px;background: #06c1ae;text-align: center;
+font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
 
 
 

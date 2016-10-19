@@ -29,9 +29,11 @@ require.config({
         "jquery": "../plugin/jquery/jquery",                     //加载jquery
         "validate":"../plugin/validata/jquery.validate",
         "validMethod":"../js/validMethod",
+        "inputlimit":"../js/inputLimit",
         "flexslider":"../plugin/flexslider/jquery.flexslider-min",   //flexslider插件路径加载
         "laytpl":"../plugin/laytpl/laytpl",
         "layer":"../plugin/layermobil/layer",
+        "index":"../js/index",
         //css文件的定义方法
         "layercss":"../plugin/layermobil/layer",
         "flexslidercss": "../plugin/flexslider/flexslider"      //异步请求flexslider插件需要的.css文件
@@ -56,6 +58,9 @@ require.config({
         },
         "validMethod":{
             deps:["validate"]
+        },
+        "inputlimit":{
+            deps: ["jquery"]
         }
     }
 

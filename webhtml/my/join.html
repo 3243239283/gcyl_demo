@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/my.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="real">
+		<p><a class="fl" href="../../myself.html"><i class="iconfont">&#xe607;</i></a><span>商家注册</span></p>
+	</div>
+    <div class="join">
+        <form id="joinform">
+            <div class="j_box">
+                <ul>
+                    <li><label>商家名称<input type="text" name="joinname" placeholder="请输入"></label></li>
+                    <li><label>联系电话<input type="text" class="phonenum" size="25" maxlength="11" name="joinphone" placeholder="请输入"></label></li>
+                    <li><label>联系邮箱<input type="text" name="joinemail" placeholder="请输入"></label></li>
+                </ul>
+            </div>
+            <div class="j_box">
+                <ul>
+                    <li><a class="site" href="javascript:"><label>所在地<input type="text" name="joinseat"></label></a></li>
+                    <li><label>详细地址</label><textarea name="joinaddress" placeholder="请输入" id="" cols="30" rows="2"></textarea></li>
+                </ul>
+            </div>
+            <div class="license">
+                <input type="text" value="1" name="licenimg" class="hidden">
+                <a href="javascript:">
+                    <i class="iconfont">&#xe621;</i>
+                    <p>上传营业执照</p>
+                </a>
+            </div>
+            <div class="protocol">
+                <input name="pro_btn" id="single" type="checkbox">我已阅读并遵循竞拍须知
+            </div>
+            <div class="join_btn">
+                <a class="carry" href="javascript:">提交</a>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        (function(){
+            var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+            __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+            _orientationChange = function(){
+                _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+                _zoom = _w / 640;
+                __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+            };
+            __style.setAttribute("zoom",_zoom);
+            _orientationChange();
+            window.addEventListener("resize",_orientationChange,false);
+        })();
+    </script>
+
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/join"></script>
+    <script src="../../js/require-config.js"></script>
+</body>
+</html> 
+
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/shoppingcar.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+	<div class="spcart">
+		<p>购物车<span class="goods">(0)</span></p>
+	</div>
+	<div class="shopping_cart">
+		<div class="cart">
+			<div class="goodsnum">
+				<a class="choice" href="javascript:"><input type="checkbox"></a>
+				<a class="stores" href="javascript:">Joy分销店<i class="iconfont">&#xe60d;</i></a>
+				<a class="edit fr" href="javascript:">编辑</a>
+			</div>
+			<div class="goodstxt">
+				<div class="count noshow">
+					<p>
+						<a class="plus fl" href="javascript:"><i class="iconfont">&#xe625;</i></a>
+						<input class="reduce" type="text" value="1">
+						<a class="reduce fr" href="javascript:"><i class="iconfont">&#xe624;</i></a>
+					</p>
+				</div>
+				<a href="detail.html">
+					<div class="duct">
+						<img src="img/product/product.png" alt="">
+						<div class="imgtxt">
+							<p>悟牌活性水杯</p>
+							<p>￥<span class="money">2680.00</span><span class="num fr">x1</span></p>
+						</div>
+						<br class="clear">
+					</div>			
+				</a>
+			</div>
+		</div>
+		<div class="cart">
+			<div class="goodsnum">
+				<a class="choice" href="javascript:"><input type="checkbox"></a>
+				<a class="stores" href="javascript:">Joy分销店<i class="iconfont">&#xe60d;</i></a>
+				<a class="edit fr" href="javascript:">编辑</a>
+			</div>
+			<div class="goodstxt">
+				<div class="count noshow">
+					<p>
+						<a class="plus fl" href="javascript:"><i class="iconfont">&#xe625;</i></a>
+						<input class="reduce" type="text" value="1">
+						<a class="reduce fr" href="javascript:"><i class="iconfont">&#xe624;</i></a>
+					</p>
+				</div>
+				<a href="detail.html">
+					<div class="duct">
+						<img src="img/product/product.png" alt="">
+						<div class="imgtxt">
+							<p>悟牌活性水杯</p>
+							<p>￥<span class="money">2680.00</span><span class="num fr">x1</span></p>
+						</div>
+						<br class="clear">
+					</div>			
+				</a>
+			</div>
+			<div class="goodstxt">
+				<div class="count noshow">
+					<p>
+						<a class="plus fl" href="javascript:"><i class="iconfont">&#xe625;</i></a>
+						<input class="reduce" type="text" value="1">
+						<a class="reduce fr" href="javascript:"><i class="iconfont">&#xe624;</i></a>
+					</p>
+				</div>
+				<a href="detail.html">
+					<div class="duct">
+						<img src="img/product/product.png" alt="">
+						<div class="imgtxt">
+							<p>悟牌活性水杯</p>
+							<p>￥<span class="money">2680.00</span><span class="num fr">x1</span></p>
+						</div>
+						<br class="clear">
+					</div>			
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="total">
+		<a href="javascript:"><input class="tobtn_num" type="checkbox">... 合计:<span class="to_money">￥0.00</span></a>
+		<a class="reckon fr" href="javascript:">结算</a>
+	</div>
+	<div class="footer">
+		<a href="index.html">
+			<i class="iconfont">&#xe600;</i>
+			<p>首页</p>
+		</a>
+		<a class="charitable" href="javascript:">
+			<i class="iconfont">&#xe602;</i>
+			<p>慈善</p>
+		</a>
+		<a href="option.html" class="options">
+			<img src="img/55.png" alt="" />
+		</a>
+		<a href="shopping_cart.html" class="selected">
+			<i class="iconfont">&#xe601;</i>
+			<p>购物车</p>
+		</a>
+		<a href="myself.html">
+			<i class="iconfont">&#xe603;</i>
+			<p>我</p>
+		</a>
+	</div>
+	<script>
+		(function(){
+		    var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+		    __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+		    _orientationChange = function(){
+		        _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+		        _zoom = _w / 640;
+		        __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+		    };
+		    __style.setAttribute("zoom",_zoom);
+		    _orientationChange();
+		    window.addEventListener("resize",_orientationChange,false);
+		})();
+	</script>
+	<!-- 引入require模块，关联../js/list.js -->
+	<script src="plugin/requirejs/require.js" data-main="js/shopping_cart"></script>
+  	<script src="js/require-config.js"></script>
+</body>
+</html> 
+

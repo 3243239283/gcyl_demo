@@ -101,24 +101,25 @@
                 </a></li>
         </ul>
         <ul>
-            <li><a href="javascript:">
+            <li><a href="webhtml/my/rule.html">
                     <i class="iconfont integral">&#xe613;</i>
                     <span>积分规则</span>
                     <i class="iconfont">&#xe60d;</i>
                 </a></li>
-            <li><a href="">
+            <li><a href="webhtml/my/join.html">
                     <i class="iconfont join">&#xe614;</i>
                     <span>我要加盟</span>
                     <i class="iconfont">&#xe60d;</i>
                 </a></li>
-            <li><a href="javascript:">
+            <li><a class="disbtn" href="javascript:">
+                <!--申请分销页面webhtml/my/distribution.html-->
                     <i class="iconfont distribution">&#xe615;</i>
                     <span>申请分销</span>
                     <i class="iconfont">&#xe60d;</i>
                 </a></li>
         </ul>
         <ul>
-            <li><a href="javascript:">
+            <li><a class="custbtn" href="javascript:">
                     <i class="iconfont service">&#xe618;</i>
                     <span>联系客服</span>
                     <i class="iconfont">&#xe60d;</i>
@@ -130,14 +131,14 @@
             <i class="iconfont">&#xe600;</i>
             <p>首页</p>
         </a>
-        <a href="javascript:">
+        <a class="charitable" href="javascript:">
             <i class="iconfont">&#xe602;</i>
             <p>慈善</p>
         </a>
         <a href="option.html" class="options">
             <img src="img/55.png" alt="" />
         </a>
-        <a href="javascript:">
+        <a href="shopping_cart.html">
             <i class="iconfont">&#xe601;</i>
             <p>购物车</p>
         </a>
@@ -160,6 +161,8 @@
             window.addEventListener("resize",_orientationChange,false);
         })();
     </script>
+    <script src="plugin/requirejs/require.js" data-main="js/myself"></script>
+    <script src="js/require-config.js"></script>
 </body>
 </html> 
 

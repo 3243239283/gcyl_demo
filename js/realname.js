@@ -7,22 +7,22 @@ define(['jquery','layer','cssjs!layercss','validate','validMethod'],function(jqu
     /* 提示信息配置，此处配置与表单中各项的name相对应，下同 */  
     var msgText = {
         realname: {
-            required: "请输入真实姓名、" ,
-            errorContent:"请输入真实姓名、"
+            required: "请输入真实姓名" ,
+            errorContent:"请输入真实姓名"
         },
         userid:{
-            required:"请输入身份证号、",
-            errorContent:"身份证号格式错误、",
-            remote: "身份证号已被使用、"
+            required:"请输入身份证号",
+            errorContent:"身份证号格式错误",
+            remote: "身份证号已被使用"
         },
         banshen:{
-            required: "请上传持证半身照、"
+            required: "请上传持证半身照"
         },
         shent:{
-            required: "请上传身份证正面照、"
+            required: "请上传身份证正面照"
         },
         shenb:{
-            required: "请上传身份证反面照、"
+            required: "请上传身份证反面照"
         }
     }
     var realNameIdenConfig = {
@@ -83,8 +83,21 @@ define(['jquery','layer','cssjs!layercss','validate','validMethod'],function(jqu
                 required: msgText.shenb.required
             }            
         },
-        //错误提示的DOM结构及展示区域设置
-        errorLabelContainer: '.real_errorbox',
+        //重写showErrors
+        showErrors: function (errorMap, errorList) {
+            var msg = "";
+            $.each(errorList, function (i, v) {
+                //msg += (v.message + "\r\n");
+                //在此处用了layer的方法,显示效果更美观
+                layer.open({
+                    style:'color:#FFFFFF;font-size:3rem;line-height:50px;',
+                    content: v.message,
+                    skin: 'msg',
+                    time: 2 //2秒后自动关闭
+                });
+                return false;
+            });
+        },
         submitHandler:function(){
             layer.open({
                 style:'color:#FFFFFF;font-size:3rem;line-height:50px;',
@@ -93,7 +106,8 @@ define(['jquery','layer','cssjs!layercss','validate','validMethod'],function(jqu
                 time: 2 //2秒后自动关闭
             });
         },
-        onfocusout: false
+        onfocusout: false,
+        onkeyup:false
     }
     /* 表单校验绑定 */
     $realNameForm.validate(realNameIdenConfig);

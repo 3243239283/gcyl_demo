@@ -231,13 +231,13 @@ define(['jquery','validate'],function(){
 		return false;
 	}, defaultErrMsg);
 
-    //有限合伙企业信息：只允许输入字母数字校验
+    //企业信息：只允许输入字母数字校验
 	$.validator.addMethod("chrnum", function(value, element) {
 		var chrnum = /^([a-zA-Z0-9]+)$/;
 		return this.optional(element) || (chrnum.test(value));
 	}, "只能输入数字和字母");
 	
-	//有限合伙企业信息：只允许输入字母+数字+“-”校验
+	//企业信息：只允许输入字母+数字+“-”校验
 	$.validator.addMethod("chrnumtwo", function(value, element) {
 		var chrnumtwo = /^([a-zA-Z0-9\-]+)$/;
 		return this.optional(element) || (chrnumtwo.test(value));
