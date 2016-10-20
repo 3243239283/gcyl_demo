@@ -16,13 +16,13 @@
     </div>
     <div id="msg_detail"></div>
     <!--消息模板-->
-    <script id="tpl3" type="text/html">
-        {{# for(var i = 0, len = d.list.length; i < len; i++){ }}
-          <div class="msgbox">
-                <p>{{d.list[i].time}}</p>
-                <div class="msgtxt">{{d.list[i].msg}}</div>
-            </div>
-        {{# } }}
+    <script id="tpl_detail" type="text/x-handlebars-template">
+    {{#each list}}
+        <div class="msgbox">
+            <p>{{time}}</p>
+            <div class="msgtxt">{{msg}}</div>
+        </div>
+    {{/each}}
     </script>
         
     <script>
@@ -39,7 +39,8 @@
             window.addEventListener("resize",_orientationChange,false);
         })();
     </script>
-
+    
+    <script src="../../plugin/handlebars/handlebars.js"></script>
     <!--模块化工具-->
     <script src="../../plugin/requirejs/require.js" data-main="../../js/message"></script>
     <script src="../../js/require-config.js"></script>

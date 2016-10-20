@@ -31,7 +31,7 @@ require.config({
         "validMethod":"../js/validMethod",
         "inputlimit":"../js/inputLimit",
         "flexslider":"../plugin/flexslider/jquery.flexslider-min",   //flexslider插件路径加载
-        "laytpl":"../plugin/laytpl/laytpl",
+        "handlebars":"../plugin/handlebars/handlebars",
         "layer":"../plugin/layermobil/layer",
         "index":"../js/index",
         //css文件的定义方法
@@ -50,6 +50,10 @@ require.config({
         "flexslider":{
             deps:["jquery"],
             exports:"flexslider"
+        },
+        "handlebars":{
+            deps:["jquery"],
+            exports:"handlebars"
         },
         //弹窗
         "layer":{

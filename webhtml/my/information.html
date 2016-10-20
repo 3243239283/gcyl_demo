@@ -11,19 +11,13 @@
     <style id="_zoom"></style>
 </head>
 <body class="zoom">
-    <div class="shop">
-        <p> <a href="../../myself.html"><i class="iconfont fl">&#xe607;</i></a>消息</p>
+    <div class="information">
+        <p>
+            <!-- 后退 -->
+            <a href="../../myself.html"><i class="iconfont fl">&#xe607;</i></a>基本信息
+        </p>
     </div>
-    <div class="message">
-        <div class="system">
-            <p><i class="iconfont">&#xe620;</i>系统消息<span class="msgtime fr">2016-05-08 12:00</span></p>
-            <p><a class="sysbtn" href="msg_detail.html"><span>你提交的借贷申请,已审核通过请注意查收。</span><i class="iconfont fr">&#xe60d;</i></a></p>
-        </div>
-        <div class="system">
-            <p><i class="iconfont">&#xe620;</i>交易消息<span class="msgtime fr">2016-05-08 12:00</span></p>
-            <p><a class="action" href="msg_detail2.html"><span>ID12345用户消费500元,您获得50积分。</span><i class="iconfont fr">&#xe60d;</i></a></p>
-        </div>
-    </div>
+    
     <script>
         (function(){
             var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
@@ -39,9 +33,7 @@
         })();
     </script>
     
-    <script src="../../plugin/handlebars/handlebars.js"></script>
-    <!--模块化工具-->
-    <script src="../../plugin/requirejs/require.js" data-main="../../js/message"></script>
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/information"></script>
     <script src="../../js/require-config.js"></script>
 </body>
 </html> 

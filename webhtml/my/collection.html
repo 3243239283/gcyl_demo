@@ -27,27 +27,27 @@
     <!--商铺列表-->
     <div id="collection"></div>
     <!--商铺模板-->
-    <script id="tpl2" type="text/html">
-        {{# for(var i = 0, len = d.list.length; i < len; i++){ }}
-          <div class="hot">
-                <div class="shoped">
-                    <div class="shopimg">
-                        <a href="shop.html"><img src="{{d.list[i].imgsrc}}" alt="" /></a>
-                        <div class="shoptext">
-                            <p class="text"><a href="shop.html"><span class="name">{{d.list[i].name}}</span><span class="distance fr">{{d.list[i].distance}}km</span></a></p>
-                            <p class="star">
-                                <i class="iconfont">&#xe60b;&#xe60b;&#xe60b;&#xe60b;&#xe60b;</i>
-                                <span class="people">￥{{d.list[i].people}}/人</span>
-                            </p>
-                            <p class="address">
-                                <a class="addbtn" href="javascript:"><i class="iconfont">&#xe606;</i>{{d.list[i].address}}</a>
-                            </p>
-                            <p class="discount"><i class="iconfont">&#xe61f;</i>{{d.list[i].discount}}</p>
-                        </div>
+    <script id="template_collection" type="text/x-handlebars-template">
+    {{#each list}}
+        <div class="hot">
+            <div class="shoped">
+                <div class="shopimg">
+                    <a href="shop.html"><img src="{{imgsrc}}" alt="" /></a>
+                    <div class="shoptext">
+                        <p class="text"><a href="shop.html"><span class="name">{{name}}</span><span class="distance fr">{{distance}}km</span></a></p>
+                        <p class="star">
+                            <i class="iconfont">&#xe60b;&#xe60b;&#xe60b;&#xe60b;&#xe60b;</i>
+                            <span class="people">￥{{people}}/人</span>
+                        </p>
+                        <p class="address">
+                            <a class="addbtn" href="javascript:"><i class="iconfont">&#xe606;</i>{{address}}</a>
+                        </p>
+                        <p class="discount"><i class="iconfont">&#xe61f;</i>{{discount}}</p>
                     </div>
                 </div>
             </div>
-        {{# } }}
+        </div>
+    {{/each}}
     </script>
     
     <script>
@@ -64,7 +64,8 @@
             window.addEventListener("resize",_orientationChange,false);
         })();
     </script>
-
+    
+    <script src="plugin/handlebars/handlebars.js"></script>
     <script src="../../plugin/requirejs/require.js" data-main="../../js/collection"></script>
     <script src="../../js/require-config.js"></script>
 </body>

@@ -1,0 +1,38 @@
+{
+	"list":[
+		{
+			"listname": "陌陌觅食1",
+			"liststate": "待付款",
+			"detail_page_src":"payment.html",
+			"imgsrc": "../../img/order/order.png",
+			"imgname":"悟牌活性水杯",
+			"imgnum":1,
+			"imggral":135,
+			"nummoney":135,
+			"paybtn":"付款",
+			"cancel":"取消订单"
+		},
+		{
+			"listname": "陌陌觅食2",
+			"liststate": "待消费",
+			"detail_page_src":"payment.html",
+			"imgsrc": "../../img/order/order.png",
+			"imgname":"悟牌活性水杯",
+			"imgnum":1,
+			"imggral":135,
+			"nummoney":135,
+			"consumed":"查看券码"
+		},
+		{
+			"listname": "陌陌觅食3",
+			"liststate": "待评价",
+			"detail_page_src":"payment.html",
+			"imgsrc": "../../img/order/order.png",
+			"imgname":"悟牌活性水杯",
+			"imgnum":1,
+			"imggral":135,
+			"nummoney":135,
+			"evaluate":"评价"
+		}
+	]
+}

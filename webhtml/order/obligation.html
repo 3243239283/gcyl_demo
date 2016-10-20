@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/order.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="obliga">
+        <p><a href="../../myself.html"><i class="iconfont fl">&#xe607;</i></a>待付款</p>
+        <div class="payment">
+            <p>
+                <a class="obli_state1 selected" href="javascript:">全部</a>
+                <a class="obli_state2" href="javascript:">待付款</a>
+                <a class="obli_state3" href="javascript:">待消费</a>
+                <a class="obli_state4" href="javascript:">待发货</a>
+                <a class="obli_state5" href="javascript:">待收货</a>
+                <a class="obli_state6" href="javascript:">待评价</a>
+                <a class="obli_state7" href="javascript:">已完成</a>
+            </p>
+        </div>
+    </div>
+        
+    <!--订单模板容器-->
+    <div id="obligation"></div>
+    <!--订单模板-->
+    <script id="table-template" type="text/x-handlebars-template">
+    {{#each list}}
+        <div class="or_list">
+            <p>
+                <span class="listname">{{listname}}</span>
+                <span class="liststate fr">{{liststate}}</span>
+            </p>
+            <div class="product">
+                <a href="{{detail_page_src}}">
+                    <div class="duct">
+                        <img src="{{imgsrc}}" alt="">
+                        <div class="imgtxt">
+                            <p>{{imgname}}</p>
+                            <p>数量:<span class="num">{{imgnum}}</span></p>
+                            <p>单价:<span class="gral">￥{{imggral}}</span></p>
+                        </div>
+                        <br class="clear">
+                    </div>          
+                </a>
+            </div>
+            <div class="operation">
+                <p>
+                    <span>合计:￥{{nummoney}}</span>
+                    
+                    <!--待付款-->
+                    {{#if paybtn}}  
+                        <a class="paybtn fr" href="javascript:">{{paybtn}}</a>
+                    {{/if}}
+                    {{#if cancel}}
+                        <a class="cancel fr" href="javascript:">{{cancel}}</a>
+                    {{/if}}
+                    
+                    <!--待消费-->
+                    {{#if consumed}}
+                        <a class="consumed fr" href="javascript:">{{consumed}}</a>
+                    {{/if}}
+
+                    <!--待收货-->
+                    {{#if receipt}}
+                        <a class="receipt fr" href="javascript:">{{receipt}}</a>
+                    {{/if}}
+
+                    <!--待评价-->
+                    {{#if evaluate}}
+                        <a class="evaluate fr" href="javascript:">{{evaluate}}</a>
+                    {{/if}}
+
+                    <br class="clear">
+                </p>
+            </div>            
+        </div>
+    {{/each}}
+    </script>
+    
+    
+    <script>
+        (function(){
+            var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+            __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+            _orientationChange = function(){
+                _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+                _zoom = _w / 640;
+                __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+            };
+            __style.setAttribute("zoom",_zoom);
+            _orientationChange();
+            window.addEventListener("resize",_orientationChange,false);
+        })();
+    </script>
+
+    <!--模块化工具-->
+    <script src="../../plugin/handlebars/handlebars.js"></script>
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/obligation"></script>
+    <script src="../../js/require-config.js"></script>
+</body>
+</html> 
+
+

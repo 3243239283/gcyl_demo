@@ -1,4 +1,4 @@
-define(['jquery','layer','cssjs!layercss'],function(jquery){
+define(['jquery','index','layer','cssjs!layercss'],function(jquery){
 	/*编辑*/
 	$(".shopping_cart>.cart>.goodsnum").on("click",".edit", function() {
 		var amount=parseInt($('.reduce').val());	//商品数量
@@ -8,7 +8,7 @@ define(['jquery','layer','cssjs!layercss'],function(jquery){
 			$(this).parent().nextAll().find('.num').hide();
 		}else{
 			$(this).text('编辑');
-			$(this).parent().nextAll().find('p>.num').html('￥'+amount);
+			$(this).parent().nextAll().find('.num').html('x'+amount);
 			$(this).parent().nextAll().find('.count').hide();
 			$(this).parent().nextAll().find('.num').show();
 		}		

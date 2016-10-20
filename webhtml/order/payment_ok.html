@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/order.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="obliga">
+        <p><a href="payment.html"><i class="iconfont fl">&#xe607;</i></a>支付订单</p>
+    </div>
+    <div class="be_paid">
+        <div class="or_list">
+            <p>
+                <span class="listname">陌陌觅食(西湖店)</span>
+                <span class="liststate fr">待付款</span>
+            </p>
+            <div class="product">
+                <a href="payment.html">
+                    <div class="duct">
+                        <img src="../../img/order/order.png" alt="">
+                        <div class="imgtxt">
+                            <p>悟牌活性水杯<span class="gral">￥135</span></p>
+                            <p><span class="num fr">x1</span></p>
+                        </div>
+                        <br class="clear">
+                    </div>          
+                </a>
+            </div>
+            <div class="jifen">
+                赠送积分<span class="fr">100积分</span>
+            </div>            
+        </div>
+        <div class="mode">
+            <h3>支付方式</h3>
+            <ul>
+                <li>
+                    <i class="iconfont wx">&#xe627;</i>
+                    <span class="motlt">微信</span>
+                    <input type="radio" name="zhifu">
+                </li>
+                <li>
+                    <i class="iconfont zfb">&#xe626;</i>
+                    <span class="motlt">支付宝</span>
+                    <input type="radio" name="zhifu">
+                </li>
+                <li>
+                    <i class="iconfont jfq">&#xe628;</i>
+                    <span class="motlt">积分券支付</span>
+                    <span class="motxt">100</span>
+                    <input type="radio" name="zhifu">
+                </li>
+                <li>
+                    <i class="iconfont ty">&#xe629;</i>
+                    <span class="motlt">通用积分支付</span>
+                    <span class="motxt">550</span>
+                    <input type="radio" name="zhifu">
+                </li>
+            </ul>
+        </div>
+        <div class="confirm">
+            <p>合计:<span class="conmoney">￥135.00</span></p>
+            <a class="confirmbtn" href="javascript:">确定支付</a>
+        </div>
+    </div>
+
+    
+    
+    <script>
+        (function(){
+            var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+            __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+            _orientationChange = function(){
+                _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+                _zoom = _w / 640;
+                __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+            };
+            __style.setAttribute("zoom",_zoom);
+            _orientationChange();
+            window.addEventListener("resize",_orientationChange,false);
+        })();
+    </script>
+
+    <!--模块化工具-->
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/obligation"></script>
+    <script src="../../js/require-config.js"></script>
+</body>
+</html> 
+
+

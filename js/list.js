@@ -1,15 +1,14 @@
-define(['jquery','laytpl'],function(jquery,laytpl){
+define(['jquery'],function(jquery){
     //第一种写法
     $.ajax({
         url:"js/json/list.json",
         dataType:"json",
         type:"get",
-        success:function(data){       
-            var tpl = document.getElementById('tpl').innerHTML; //读取模版
-            //方式一：异步渲染（推荐）
-            laytpl(tpl).render(data, function(render){
-                document.getElementById('recommend').innerHTML = render;
-            });
+        success:function(data){
+            //注册一个Handlebars模版，通过id找到某一个模版，获取模版的html框架
+            var myTemplate = Handlebars.compile($("#template_recommend").html());
+            //将json对象用刚刚注册的Handlebars模版封装，得到最终的html，插入到基础table中。
+            $('#recommend').html(myTemplate(data));
         }
     });
     
@@ -22,11 +21,10 @@ define(['jquery','laytpl'],function(jquery,laytpl){
             dataType:"json",
             type:"get",
             success:function(data){            
-                var tpl = document.getElementById('tpl').innerHTML; //读取模版
-                //方式一：异步渲染（推荐）
-                laytpl(tpl).render(data, function(render){
-                    document.getElementById('recommend').innerHTML = render;
-                });
+                //注册一个Handlebars模版，通过id找到某一个模版，获取模版的html框架
+                var myTemplate = Handlebars.compile($("#template_recommend").html());
+                //将json对象用刚刚注册的Handlebars模版封装，得到最终的html，插入到基础table中。
+                $('#recommend').html(myTemplate(data));
             }
         });
     })
@@ -38,12 +36,11 @@ define(['jquery','laytpl'],function(jquery,laytpl){
             url:"js/json/list2.json",
             dataType:"json",
             type:"get",
-            success:function(data){            
-                var tpl = document.getElementById('tpl').innerHTML; //读取模版
-                //方式一：异步渲染（推荐）
-                laytpl(tpl).render(data, function(render){
-                    document.getElementById('recommend').innerHTML = render;
-                });
+            success:function(data){
+                //注册一个Handlebars模版，通过id找到某一个模版，获取模版的html框架
+                var myTemplate = Handlebars.compile($("#template_recommend").html());
+                //将json对象用刚刚注册的Handlebars模版封装，得到最终的html，插入到基础table中。
+                $('#recommend').html(myTemplate(data));
             }
         });
     })
@@ -56,11 +53,10 @@ define(['jquery','laytpl'],function(jquery,laytpl){
             dataType:"json",
             type:"get",
             success:function(data){            
-                var tpl = document.getElementById('tpl').innerHTML; //读取模版
-                //方式一：异步渲染（推荐）
-                laytpl(tpl).render(data, function(render){
-                    document.getElementById('recommend').innerHTML = render;
-                });
+                //注册一个Handlebars模版，通过id找到某一个模版，获取模版的html框架
+                var myTemplate = Handlebars.compile($("#template_recommend").html());
+                //将json对象用刚刚注册的Handlebars模版封装，得到最终的html，插入到基础table中。
+                $('#recommend').html(myTemplate(data));
             }
         });
     })

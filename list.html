@@ -23,34 +23,38 @@
 	</div>
 	<!--商铺列表-->
 	<div id="recommend"></div>
-	<!--商铺模板-->
-	<script id="tpl" type="text/html">
-	    {{# for(var i = 0, len = d.list.length; i < len; i++){ }}
-	      <div class="hot">
-				<div class="shop">
-					<div class="shopimg">
-						<a href="shop.html"><img src="{{d.list[i].imgsrc}}" alt="" /></a>
-						<div class="shoptext">
-							<p class="text">
-								<a href="shop.html">
-									<span class="name">{{d.list[i].name}}</span>
-									<span class="distance fr">{{d.list[i].distance}}km</span>
-								</a>
-							</p>
-							<p class="star">
-								<i class="iconfont">&#xe60b;&#xe60b;&#xe60b;&#xe60b;&#xe60b;</i>
-								<span class="people">￥{{d.list[i].people}}/人</span>
-							</p>
-							<p class="address">
-								<a class="addbtn" href="javascript:"><i class="iconfont">&#xe606;</i>{{d.list[i].address}}</a>
-							</p>
-							<p class="discount"><i class="iconfont">&#xe61f;</i>{{d.list[i].discount}}</p>
-						</div>
+	<!--商铺模板-->	
+	<script id="template_recommend" type="text/x-handlebars-template">
+    {{#each list}}
+        <div class="hot">
+			<div class="shop">
+				<div class="shopimg">
+					<a href="shop.html"><img src="{{imgsrc}}" alt="" /></a>
+					<div class="shoptext">
+						<p class="text">
+							<a href="shop.html">
+								<span class="name">{{name}}</span>
+								<span class="distance fr">{{distance}}km</span>
+							</a>
+						</p>
+						<p class="star">
+							<i class="iconfont">&#xe60b;&#xe60b;&#xe60b;&#xe60b;&#xe60b;</i>
+							<span class="people">￥{{people}}/人</span>
+						</p>
+						<p class="address">
+							<a class="addbtn" href="javascript:"><i class="iconfont">&#xe606;</i>{{address}}</a>
+						</p>
+						<p class="discount"><i class="iconfont">&#xe61f;</i>{{discount}}</p>
 					</div>
 				</div>
 			</div>
-	    {{# } }}
-  	</script>
+		</div>
+    {{/each}}
+    </script>
+
+
+
+
 	<script>
 		(function(){
 		    var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
@@ -65,6 +69,8 @@
 		    window.addEventListener("resize",_orientationChange,false);
 		})();
 	</script>
+
+	<script src="plugin/handlebars/handlebars.js"></script>
 	<!-- 引入require模块，关联../js/list.js -->
 	<script src="plugin/requirejs/require.js" data-main="js/list"></script>
   	<script src="js/require-config.js"></script>

@@ -154,6 +154,7 @@ body {
 .pay{background: #ff6633;color: #FFFFFF;padding: 10px 40px;border-radius: 10px;}
 .hidden{width:1px;height:0;border:none;}
 .noshow{display:none;}
+
 /*首页底部公共样式*/
 .footer{text-align: center;background: #f9f9f9;position: fixed;bottom: 0;width: 100%;}
 .footer a{display: inline-block;margin:0 30px;color:#afadb8;}
