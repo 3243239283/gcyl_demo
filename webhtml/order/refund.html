@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/order.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="obliga">
+        <p><a href="consumed.html"><i class="iconfont fl">&#xe607;</i></a>申请退款</p>
+    </div>
+    <div class="re_code">
+        <div class="codebox">
+            <p>订单密码</p>
+            <p>密码1 : <span class="re_code">1345655</span><input class="code_input" type="checkbox"></p>
+        </div>
+        <div class="codebox">
+            <p>现金 : <span class="re_code_money">135</span>元</p>
+        </div>
+        <div class="retreat">
+            <p>退款原因</p>
+            <textarea placeholder="请输入退款原因"></textarea>
+        </div>
+        <div class="recodebtn">
+            <a class="codebtn" href="javascript:">申请退款</a>
+        </div>
+    </div>
+    
+    <script>
+        (function(){
+            var _w,_zoom,_hd, _orientationChange,_doc = document,__style = _doc.getElementById("_zoom");
+            __style || (_hd = _doc.getElementsByTagName("head")[0],__style=_doc.createElement("style"),_hd.appendChild(_style));
+            _orientationChange = function(){
+                _w    = _doc.documentElement.clientWidth || _doc.body.clientWidth;
+                _zoom = _w / 640;
+                __style.innerHTML = ".zoom {zoom:" + _zoom + ";-webkit-text-size-adjust:auto!important;}";
+            };
+            __style.setAttribute("zoom",_zoom);
+            _orientationChange();
+            window.addEventListener("resize",_orientationChange,false);
+        })();
+    </script>
+</body>
+</html> 
+
+

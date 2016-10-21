@@ -33,6 +33,8 @@ require.config({
         "flexslider":"../plugin/flexslider/jquery.flexslider-min",   //flexslider插件路径加载
         "handlebars":"../plugin/handlebars/handlebars",
         "layer":"../plugin/layermobil/layer",
+        "quoevent":"../plugin/quojs/quo.events",                          //javascript移动触摸设备开发类库
+        "quostand":"../plugin/quojs/quo.standalone",
         "index":"../js/index",
         //css文件的定义方法
         "layercss":"../plugin/layermobil/layer",

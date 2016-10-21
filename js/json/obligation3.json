@@ -3,7 +3,7 @@
 		{
 			"listname": "陌陌觅食4",
 			"liststate": "待消费",
-			"detail_page_src":"payment.html",
+			"detail_page_src":"consumed.html",
 			"imgsrc": "../../img/order/order.png",
 			"imgname":"悟牌活性水杯",
 			"imgnum":1,
@@ -14,7 +14,7 @@
 		{
 			"listname": "陌陌觅食5",
 			"liststate": "待消费",
-			"detail_page_src":"payment.html",
+			"detail_page_src":"consumed.html",
 			"imgsrc": "../../img/order/order.png",
 			"imgname":"悟牌活性水杯",
 			"imgnum":1,
@@ -25,7 +25,7 @@
 		{
 			"listname": "陌陌觅食6",
 			"liststate": "待消费",
-			"detail_page_src":"payment.html",
+			"detail_page_src":"consumed.html",
 			"imgsrc": "../../img/order/order.png",
 			"imgname":"悟牌活性水杯",
 			"imgnum":1,
