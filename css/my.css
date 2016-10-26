@@ -173,6 +173,72 @@ font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
 .information{position: fixed;top: 0;width: 100%;z-index: 2;font-size: 3.2rem;line-height: 80px;height: 80px;background: #06c1ae;color: #FFFFFF;text-align: center;}
 .information>p {padding: 0 38px;}
 .information a i.iconfont {font-size: 3.2rem;}
+.mation{margin: 80px 0 0 0;}
+.mation ul li{font-size: 3rem;color: #333333;line-height: 84px;border-bottom: 1px solid #e6e6e6;background: #FFFFFF;padding: 0 40px;}
+.mation ul li:first-child{padding: 20px 40px 20px;}
+.mation ul li span{display: inline-block;width: 120px;text-align: justify;text-align-last: justify;}
+.mation ul li.ma_line{margin-top:15px;}
+.mation ul li i.ph_num{float: right;font-style: normal;}
+.mation ul li a{display:block;}
+.mation ul li a img{float:right}
+.mation ul li a input{font-size: 3rem;color: #333333;line-height: 83px;border: none;float: right;text-align: right;}
+.mation ul li a i.iconfont{font-size: 3rem;color: #333333;float: right;}
+
+.genlist li{font-size: 3rem;color: #333333;line-height: 80px;border-bottom: 1px solid #e6e6e6;}
+.genlist li:last-child{border:none;}
+.genlist li a{display:block;}
+
+
+.genderbox{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index: 4;}
+.genderbox .box_list{position: absolute;bottom: 0px;width: 100%;}
+.genderbox .box_list ul li:first-child{border-radius: 20px 20px 0 0;}
+.genderbox .box_list ul li:last-child{border-radius:0 0 20px 20px;}
+
+.genderbox .box_list ul li{font-size: 3rem;line-height: 83px;background:#FFFFFF;margin:0 20px;text-align:center;color:#3434fa;}
+.genderbox .box_list>a{display: block;
+    background: #FFFFFF;margin: 20px 20px 30px;text-align: center;line-height: 85px;border-radius: 20px;font-size: 3rem;color:#3434fa;}
+
+.add{margin:80px 0 100px 0;}
+.add .add_txt{background:#FFFFFF;font-size: 3rem;line-height: 36px;color: #1a1a1a;border-top: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;margin-bottom:17px;}
+.add .add_txt ul{padding: 30px 40px;}
+.add .add_txt ul li span{display:inline-block;}
+.add .add_txt ul li p{text-align: justify;}
+.add .add_txt .edit{padding:0 30px;line-height:80px;border-top: 1px solid #e6e6e6;}
+.add .add_txt .edit p input{width: 35px;height: 35px;float: left;
+margin: 22px 0 0 0;}
+.add .add_txt .edit p a.delete{color:#ff6633;margin-left:45px;}
+
+.new_add{position: fixed;width: 100%;bottom: 0px;}
+.new_add a.new_add_btn{font-size: 3.6rem;color: #FFFFFF;background: #06c1ae;display: block;text-align: center;line-height: 100px;}
+
+.newadd_list{margin:80px 0 0 0;background:#FFFFFF;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;padding: 0 33px;}
+.newadd_list ul li {list-style: none;font-size: 2.4rem;line-height: 80px;color: #333333;border-bottom: 1px solid #e6e6e6;}
+.newadd_list ul li:last-child {border:none;}
+.newadd_list ul li input {width: 70%;border: none;float: right;line-height: 80px;padding: 0;margin: 0;font-size: 2.4rem;}
+.newadd_list ul li textarea{width: 100%;height: 135px;border: none;line-height: 50px;overflow:auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

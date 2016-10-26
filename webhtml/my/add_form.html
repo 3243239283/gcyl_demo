@@ -14,27 +14,19 @@
     <div class="information">
         <p>
             <!-- 后退 -->
-            <a href="../../myself.html"><i class="iconfont fl">&#xe607;</i></a>基本信息
+            <a href="address.html"><i class="iconfont fl">&#xe607;</i></a>添加新地址
+            <a href="javascript:" class="keep fr">保存</a>
         </p>
     </div>
-    <div class="mation">
-        <ul>
-            <li><a href="javascript:"><span>头像</span><img src="../../img/mation_head.png" alt=""></a><br class="clear"></li>
-            <li><a href="javascript:"><span>昵称</span><input class="namebox" type="text" value="于大波"></a></li>
-            <li><a class="gender" href="javascript:"><span>性别</span><input class="usergender" type="text" value="女"></a></li>
-            <li><a class="address" href="address.html"><span>收货地址</span><i class="iconfont">&#xe60d;</i></a></li>
-            <li class="ma_line"><a class="phonenum" href="javascript:"><span>手机号码</span><i class="ph_num">18534321111</i></a></li>
-            <li><a href="security.html"><span>密码安全</span><i class="iconfont">&#xe60d;</i></a></li>
-        </ul>
-    </div>
-    <div class="genderbox noshow">
-        <div class="box_list">
+    <div class="newadd_list">
+        <form id="addnew">
             <ul>
-                <li><a class="man" href="javascript:">男</a></li>
-                <li><a class="woman" href="javascript:">女</a></li>
+                <li><label>姓名<input type="text" name="realname" placeholder="请输入姓名"></label></li>
+                <li><label>手机号码<input maxlength="11" id="mobilePhone" type="text" name="mobilePhone" placeholder="请输入身份证号"></label></li>
+                <li><a href="javascript:">所在地<i class="iconfont fr">&#xe60d;</i><input type="text" name="add_tlt"></a></li>
+                <li><textarea name="add_txt" placeholder="请输入详细地址"></textarea></li>
             </ul>
-            <a class="cancel" href="javascript:">取消</a>
-        </div>        
+        </form>
     </div>
     <script>
         (function(){
