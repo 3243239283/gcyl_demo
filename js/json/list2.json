@@ -1,28 +1,26 @@
-{
-	"list":[
-		{
-			"imgsrc": "img/hot01.png",
-			"name": "于二波",
-			"distance": 5,
-			"people":60,
-			"address":"西湖区",
-			"discount":"买单立享9.5折优惠"
-		},
-		{
-			"imgsrc": "img/hot01.png",
-			"name": "于二波",
-			"distance": 5,
-			"people":40,
-			"address":"西湖区",
-			"discount":"买单立享9.5折优惠"
-		},
-		{
-			"imgsrc": "img/hot01.png",
-			"name": "于二波",
-			"distance":5,
-			"people":50,
-			"address":"文二西路",
-			"discount":"买单立享9.5折优惠"
-		}
-	]
-}
+[
+	{
+		"imgsrc": "img/hot01.png",
+		"name": "area2",
+		"distance": 5,
+		"people":60,
+		"address":"西湖区",
+		"discount":"买单立享9.5折优惠"
+	},
+	{
+		"imgsrc": "img/hot01.png",
+		"name": "area2",
+		"distance": 5,
+		"people":40,
+		"address":"西湖区",
+		"discount":"买单立享9.5折优惠"
+	},
+	{
+		"imgsrc": "img/hot01.png",
+		"name": "area2",
+		"distance":5,
+		"people":50,
+		"address":"文二西路",
+		"discount":"买单立享9.5折优惠"
+	}
+]

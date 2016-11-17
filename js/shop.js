@@ -8,7 +8,7 @@ define(['jquery','layer','cssjs!layercss'],function(jquery,layer){
                 style:'color:#FFFFFF;font-size:3.2rem;width:200px;padding:40px 0;',
                 content: '取消关注',
                 skin: 'msg',
-                time: 1500
+                time: 1.5
             });
         }else{
             $(this).addClass('care');
@@ -17,7 +17,7 @@ define(['jquery','layer','cssjs!layercss'],function(jquery,layer){
                 style:'color:#FFFFFF;font-size:3.2rem;width:200px;padding:40px 0;',
                 content: '关注成功',
                 skin: 'msg',
-                time: 1500
+                time: 1.5
             });
         }        
     });
@@ -30,7 +30,7 @@ define(['jquery','layer','cssjs!layercss'],function(jquery,layer){
             yes: function(index){
                 layer.open({
                     content: '转发成功',
-                    time: 1000
+                    time: 1.5
                 })
             }
         });

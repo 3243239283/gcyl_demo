@@ -1,4 +1,4 @@
-define(['jquery','layer','cssjs!layercss','validate','validMethod'],function(jquery,layer){
+define(['jquery','layer','uploadify','cssjs!layercss','cssjs!uploadcss','validate','validMethod'],function(jquery,layer){
     
     var $realNameForm = $('#realname'),
         $btnRealNameIden = $(".mitbtn"),
@@ -7,7 +7,7 @@ define(['jquery','layer','cssjs!layercss','validate','validMethod'],function(jqu
     /* 提示信息配置，此处配置与表单中各项的name相对应，下同 */  
     var msgText = {
         realname: {
-            required: "请输入真实姓名" ,
+            required: "请输入姓名",
             errorContent:"请输入真实姓名"
         },
         userid:{
@@ -115,7 +115,12 @@ define(['jquery','layer','cssjs!layercss','validate','validMethod'],function(jqu
         $realNameForm.eq(0).submit();
     });
 
-    
+    /*图片上传*/
+    $('.up_imgbtn').on('click',function(){
+        alert('暂未完善！');
+    });
+
+
 });
 
 

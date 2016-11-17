@@ -141,10 +141,12 @@
 .realname .real_photo .photobox{background:#FFFFFF;font-size:2.4rem;color:#333333;border-bottom: 1px solid #e6e6e6;border-top: 1px solid #e6e6e6;overflow: hidden;padding-bottom: 30px;}
 .realname .real_photo .photobox:first-child{margin-bottom:15px;}
 .realname .real_photo .photobox>p{margin:30px 0 30px 66px;}
-.realname .real_photo .photobox .box{display:inline-block;width: 50%;float: left;}
-.realname .real_photo .photobox .box>p{margin:0 0 0 0;text-indent: 66px;}
+.realname .real_photo .photobox .box{display:inline-block;width: 50%;float: left;position:relative;}
+.realname .real_photo .photobox .box>p{margin:0 0 15px 0;text-indent: 66px;}
+.realname .real_photo .photobox .box>a.up_imgbtn{display: inline-block;margin-left: 60px;}
+.realname .real_photo .photobox .box>div.imgupbox{position:absolute;bottom: 0;left: 68px;width: 200px;height: 200px;display: none;}
 
-.realname .real_photo .photobox .box .up{width: 200px;min-height: 200px;border:1px solid #e6e6e6;margin: 0 auto;text-align: center;}
+.realname .real_photo .photobox .box .up{width: 200px;height: 200px;border:1px solid #e6e6e6;margin: 0 auto;text-align: center;}
 .realname .real_photo .photobox .box .up i.iconfont{font-size: 10rem;color: #b1afaf;padding: 40px 0 10px 0;display: block;}
 .realbtn a{display: block;line-height: 98px;margin: 30px 39px 0;background: #06c1ae;text-align: center;font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
 .real_errorbox{font-size: 2.4rem;color: red;margin: 0 66px;line-height: 30px;}
@@ -181,7 +183,7 @@ font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
 .mation ul li i.ph_num{float: right;font-style: normal;}
 .mation ul li a{display:block;}
 .mation ul li a img{float:right}
-.mation ul li a input{font-size: 3rem;color: #333333;line-height: 83px;border: none;float: right;text-align: right;}
+.mation ul li a input{font-size: 3rem;color: #333333;line-height: 82px;border: none;float: right;text-align: right;}
 .mation ul li a i.iconfont{font-size: 3rem;color: #333333;float: right;}
 
 .genlist li{font-size: 3rem;color: #333333;line-height: 80px;border-bottom: 1px solid #e6e6e6;}

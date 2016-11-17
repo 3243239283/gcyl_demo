@@ -1,6 +1,6 @@
 define(['jquery'],function(jquery){
-    //第一种写法
     $.ajax({
+        //获取产品列表(http://120.27.196.116:8022/Shop/GetProductList)
         url:"js/json/list.json",
         dataType:"json",
         type:"get",
@@ -20,7 +20,7 @@ define(['jquery'],function(jquery){
             url:"js/json/list.json",
             dataType:"json",
             type:"get",
-            success:function(data){            
+            success:function(data){
                 //注册一个Handlebars模版，通过id找到某一个模版，获取模版的html框架
                 var myTemplate = Handlebars.compile($("#template_recommend").html());
                 //将json对象用刚刚注册的Handlebars模版封装，得到最终的html，插入到基础table中。
@@ -28,7 +28,7 @@ define(['jquery'],function(jquery){
             }
         });
     })
-    /*好评有限*/
+    /*好评优先*/
     $('.good').click(function(){
         $('#recommend').empty();
         $(this).addClass('selected').siblings().removeClass('selected');

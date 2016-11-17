@@ -1,4 +1,4 @@
-define(['jquery','index','layer','cssjs!layercss','quoevent','quostand'],function(jquery){
+define(['jquery','index','layer','cssjs!layercss'],function(jquery){
 	/*编辑*/
 	$(".shopping_cart>.cart>.goodsnum").on("click",".edit", function() {
 		var amount=parseInt($('.reduce').val());	//商品数量
@@ -34,12 +34,8 @@ define(['jquery','index','layer','cssjs!layercss','quoevent','quostand'],functio
 		}		
 	});
 	/*左滑删除事件*/
-	Quo('.shop_delete').swipeLeft(function(){
-		$(this).siblings('.go_delete').css('right','0');
-	});
-	Quo('.shop_delete').swipeRight(function(){
-		$(this).siblings('.go_delete').css('right','-129px');
-	});
+	
+	
 	/*删除*/
 	$(".delatebtn").on("click",function(){
 		if($(this).parents('.cart').children('.goodstxt').length==1){

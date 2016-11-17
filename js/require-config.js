@@ -33,12 +33,12 @@ require.config({
         "flexslider":"../plugin/flexslider/jquery.flexslider-min",   //flexslider插件路径加载
         "handlebars":"../plugin/handlebars/handlebars",
         "layer":"../plugin/layermobil/layer",
-        "quoevent":"../plugin/quojs/quo.events",                          //javascript移动触摸设备开发类库
-        "quostand":"../plugin/quojs/quo.standalone",
+        "uploadify":"../plugin/uploadify/jquery.uploadify",
         "index":"../js/index",
         //css文件的定义方法
         "layercss":"../plugin/layermobil/layer",
-        "flexslidercss": "../plugin/flexslider/flexslider"      //异步请求flexslider插件需要的.css文件
+        "flexslidercss": "../plugin/flexslider/flexslider",      //异步请求flexslider插件需要的.css文件
+        "uploadcss":"../plugin/uploadify/uploadify"
     },
     waitSeconds: 10 ,
     //加载layer插件需要的css之前需要的require外部插件css.js
@@ -67,6 +67,10 @@ require.config({
         },
         "inputlimit":{
             deps: ["jquery"]
+        },
+        "uploadify":{
+            deps:["jquery"],
+            exports:"uploadify"
         }
     }
 
