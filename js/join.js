@@ -105,7 +105,6 @@ define(['jquery','layer','cssjs!layercss','validate','validMethod','inputlimit']
                 return false;
             });
         },
-
         submitHandler:function(){
             layer.open({
                 style:'color:#FFFFFF;font-size:3rem;line-height:50px;',
