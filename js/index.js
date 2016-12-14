@@ -9,12 +9,12 @@ define(['jquery','layer','cssjs!layercss','flexslider','cssjs!flexslidercss'],fu
         });
     });
 
-    /*首页分类切换效果*/
+    /*首页banner/服务分类切换效果*/
     $(".flexslider").flexslider({
     	animation: "slide",
     	animationLoop: true,
     	slideshow:true,
-    	slideshowSpeed: 3000,
+    	slideshowSpeed: 5000,
     	directionNav: false
     });
 

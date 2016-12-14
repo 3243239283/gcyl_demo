@@ -1,10 +1,10 @@
-
-@font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1476956916'); /* IE9*/
-  src: url('iconfont.eot?t=1476956916#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1476956916') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1476956916') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1476956916#iconfont') format('svg'); /* iOS 4.1- */
+@font-face {
+  font-family: 'iconfont';  /* project id 159156 */
+  src: url('//at.alicdn.com/t/font_vv3rncd9sgst6gvi.eot');
+  src: url('//at.alicdn.com/t/font_vv3rncd9sgst6gvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_vv3rncd9sgst6gvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_vv3rncd9sgst6gvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_vv3rncd9sgst6gvi.svg#iconfont') format('svg');
 }
 
 .iconfont {

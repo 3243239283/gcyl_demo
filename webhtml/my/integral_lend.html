@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/my.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="grant">
+		<p>
+			<!-- 后退 -->
+			<a href="../my/amount.html"><i class="iconfont fl">&#xe607;</i></a>
+            <span class="tlt">借</span>
+			<!-- 转发 -->
+			<a href="javascript:" class="Record fr">记录</a>
+		</p>
+        <div class="e_box">
+            <p class="edu">持有期权:</p>
+            <p class="edunum"><span>1010</span></p>
+        </div>
+	</div>
+    <div class="in_head_box">
+        <a href="javascript:">
+            <p>已抵押期权</p>
+            <span class="num_txt">1000</span>
+        </a>
+        <a href="javascript:">
+            <p>可兑换积分</p>
+            <span class="num_txt">3615.80</span>
+        </a>
+    </div>
+    <form id="lendform">
+        <div class="in_stocks">
+            <p><i class="iconfont">&#xe635;</i>需抵押期权<label class="fr">
+                <input name="lendnum" type="text" placeholder="请输入期权股数">股</label></p>
+            <p><span>当前期权股市值<em>3.85</em>元</span><span class="fr">兑换积分<em>3.58</em></span></p>
+        </div>
+        <div class="in_choose">
+            <input name="indeal" type="checkbox">我已阅读并同意<a href="javascript:">《期权质押借贷协议》</a>
+        </div>
+        <div class="in_btnbox">
+            <a href="javascript:" class="audit">提交审核</a>
+        </div>
+    </form>   
+
+    <script src="../../js/zoom.js"></script>
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/integral_lend"></script>
+    <script src="../../js/require-config.js"></script>
+</body>
+</html> 
+
+

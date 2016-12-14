@@ -39,15 +39,24 @@
 .grant p a.forward{margin-left: 36px;}
 .grant a i.iconfont{font-size: 3.2rem;}
 .grant a i.forward{margin: 0 0 0 20px;}
-.grant p.edu{text-align:left;font-size:3rem;line-height: 50px;}
-.grant p.edunum{font-size:2.4rem;line-height: 50px;margin: 10px 0 40px 0;}
-.grant p.edunum span{font-size:4rem;font-weight: bold;color: #fa8d3d;}
-.amount{margin: 235px 0 0 0;line-height: 80px;font-size: 2.4rem;}
-.amount>div{padding:0 38px;color: #333333;background: #FFFFFF;}
-.amount>div span.amountnum{font-size:2.4rem;}
-.amount>div span.amountnum em{font-size:4rem;font-weight: bold;color: #fa8d3d;margin-right: 3px;}
-.amount>p{font-size: 1.8rem;color: #adadad;margin: 20px 38px;line-height: normal;}
 
+.grant .e_box{height:150px;background: #06c1ae;}
+.grant .e_box p.edu{text-align:center;font-size:2.5rem;line-height: 50px;padding: 10px 0 0 0;}
+.grant .e_box p.edunum{font-size:2.4rem;line-height: 50px;margin: 10px 0 40px 0;}
+.grant .e_box p.edunum span{font-size:4rem;font-weight: bold;color: #FBB66B;}
+.amount{margin: 230px 0 0 0;line-height: 80px;font-size: 2.4rem;}
+.amount>div{padding:0 35px 0 15px;color: #333333;background: #FFFFFF;border-top: 1px solid #E6E6E6;border-bottom: 1px solid #E6E6E6;}
+.amount div:first-child{border-left: 8px solid #FFCF31;margin:0 0 14px 0;}
+.amount div:nth-child(2){border-left: 8px solid #FE7970;}
+.amount div span.amountnum{font-size:4rem;font-weight: bold;color: #fa8d3d;margin-right: 3px;}
+.amount>p{font-size: 1.8rem;color: #adadad;margin: 10px 20px;line-height: normal;}
+.amount>p>i.iconfont{font-size: 3rem;vertical-align: middle;}
+
+.am_foot{line-height: 55px;background: #FFF;text-align: center;border: 1px solid #E6E6E6;position: fixed;width: 100%;bottom: 0px;padding: 10px 0;}
+.am_foot a{line-height: 36px;font-size:1.4rem;color:#666666;display: inline-block;width:49%;}
+.am_foot a:first-child{border-right:1px solid #CCCCCC;}
+.am_foot a:first-child i.iconfont{font-size:3rem;vertical-align: middle;background: #FFCF31;color: #FFF;border-radius: 50%;padding: 5px;margin: 0 7px 0 0;}
+.am_foot a:last-child i{font-size:3rem;vertical-align: middle;background: #FE7970;color: #FFF;border-radius: 50%;padding: 5px;margin: 0 7px 0 0;}
 /* 我的收藏 */
 .grant .collbtn{background: #FFFFFF;color:#1a1a1a;font-size: 2.8rem;}
 .grant .collbtn ul li{display:inline-block;width:50%;}
@@ -200,15 +209,17 @@ font-size: 3.6rem;color: #FFFFFF;border-radius: 5px;}
 .genderbox .box_list>a{display: block;
     background: #FFFFFF;margin: 20px 20px 30px;text-align: center;line-height: 85px;border-radius: 20px;font-size: 3rem;color:#3434fa;}
 
-.add{margin:80px 0 100px 0;}
-.add .add_txt{background:#FFFFFF;font-size: 3rem;line-height: 36px;color: #1a1a1a;border-top: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;margin-bottom:17px;}
+.add{margin:95px 0 100px 0;}
+.add .add_txt{background:#FFFFFF;font-size: 3rem;line-height: 36px;color: #1a1a1a;border: 1px solid #CCCCCC;margin: 0 20px 15px;}
 .add .add_txt ul{padding: 30px 40px;}
-.add .add_txt ul li span{display:inline-block;}
-.add .add_txt ul li p{text-align: justify;}
-.add .add_txt .edit{padding:0 30px;line-height:80px;border-top: 1px solid #e6e6e6;}
+.add .add_txt ul li span{display:inline-block;color:#333333;}
+.add .add_txt ul li p{text-align: justify;color:#666666;}
+.add .add_txt .edit{margin:0 30px;line-height:80px;border-top: 1px solid #e6e6e6;}
 .add .add_txt .edit p input{width: 35px;height: 35px;float: left;
 margin: 22px 0 0 0;}
-.add .add_txt .edit p a.delete{color:#ff6633;margin-left:45px;}
+.add .add_txt .edit p a.delete{margin-left:45px;color:#666666;}
+.add .add_txt .edit p a.editbtn{color:#666666;}
+.add .add_txt .edit p a i{color:#999999;font-size: 3rem;vertical-align: middle;}
 
 .new_add{position: fixed;width: 100%;bottom: 0px;}
 .new_add a.new_add_btn{font-size: 3.6rem;color: #FFFFFF;background: #06c1ae;display: block;text-align: center;line-height: 100px;}
@@ -219,20 +230,85 @@ margin: 22px 0 0 0;}
 .newadd_list ul li input {width: 70%;border: none;float: right;line-height: 80px;padding: 0;margin: 0;font-size: 2.4rem;}
 .newadd_list ul li textarea{width: 100%;height: 135px;border: none;line-height: 50px;overflow:auto;}
 
+/*密码安全*/
+.secur{margin: 118px 0 0 0;}
+.secur ul li a{font-size: 1.5rem;color: #F5F5F5;text-align:center;color:#FFF;background:#06C1AE;display:block;width:200px;height:200px;margin:38px auto;border-radius:50%;}
+.secur ul li a i.iconfont{font-size:7.4rem;padding: 40px 0 20px;display: block;}
+
+/*借*/
+.in_head_box{margin: 229px 0 0 0;padding:10px 0;background:#30CBBB;font-size:1.6rem;color:#F3F3F3;}
+.in_head_box a{display:inline-block;width:49%;height:100%;}
+.in_head_box a span.num_txt{font-size:3rem;color:#FBB66B;display:block;text-indent: 105px;margin: 8px 0 0 0;}
+.in_head_box a p{text-indent: 105px;line-height:30px;font-size:2.4rem;}
+
+.in_stocks{padding:0 15px;background:#FFF;margin: 10px 0 0 0;}
+.in_stocks p:first-child{font-size:2.4rem;color:#333333;padding: 20px 0;border-bottom:1px solid #E6E6E6;line-height: 35px;}
+.in_stocks p:first-child input{line-height: 35px;border:none;line-height:30px;font-size:2.4rem;}
+.in_stocks p i.iconfont{font-size: 3.5rem;color: #FE7970;margin-right: 10px;}
+
+.in_stocks p:last-child{font-size:1.8rem;color:#666666;padding: 15px 0;}
+.in_stocks p:last-child span em{color:#FF6633;}
+
+.in_choose{font-size: 1.8rem;color: #666666;margin: 15px 15px;}
+.in_choose input{vertical-align: middle;width: 22px;height: 22px;}
+.in_choose a{color:#06756A;}
+
+.in_btnbox{text-align:center;margin: 200px 0 0 0;}
+.in_btnbox .audit{display: inline-block;background: #06C1AE;color: #FFF;padding:25px 220px;font-size: 3rem;}
 
 
+.in_also{padding:0 15px;background:#FFF;margin:79px 0 0 0;}
+.in_also p:first-child{font-size:2.4rem;color:#333333;padding: 20px 0;border-bottom:1px solid #E6E6E6;line-height: 35px;}
+.in_also p:first-child input{line-height: 35px;border:none;line-height:30px;font-size:2.4rem;text-align:right;}
+.in_also p i.iconfont{font-size: 3.5rem;color: #FE7970;margin-right: 10px;vertical-align: middle;}
+.in_also p i.also{color:#FE9F21;}
+
+.in_also p:last-child{font-size:1.8rem;color:#666666;padding: 15px 0;text-align:right;}
+.in_also p:last-child span{color:#FF6633;}
+.also_amount p{font-size: 1.8rem;color: #adadad;margin: 10px 20px;line-height: normal;}
+.also_amount p i.iconfont{font-size: 3rem;vertical-align: middle;}
 
 
+.also_btnbox{text-align:center;margin: 100px 0 0 0;}
+.also_btnbox .also_audit{display: inline-block;background: #06C1AE;color: #FFF;padding:25px 220px;font-size: 3rem;}
 
+.list_table{padding: 0 15px;background: #FFFFFF;margin: 30px 0 0 0;}
+.list_table table{width:100%;}
+.list_table table thead{font-size: 1.8rem;color: #666666;line-height: 80px;}
+.list_table table tbody{font-size: 1.4rem;color: #999999;line-height: 60px;}
+.list_table table tbody tr td:first-child{text-align:center;}
+.list_table table tbody tr td:first-child i{font-size: 3rem;color: #FFCF31;}
+.list_table table thead tr th{border-bottom:1px solid #E6E6E6;}
+.list_table table tbody tr td{border-bottom:1px solid #E6E6E6;}
+.list_table table tbody tr:last-child td{border:none;}
+.list_table table tbody tr td:nth-child(3){color:#FF6633;}
+.list_table table tbody tr td:nth-child(4){color:#FF6633;}
 
+/* 借贷记录 */
+.credit{margin: 79px 0 0 0;}
+.credit .crebtn{background: #FFFFFF;text-align: center;}
+.credit .crebtn a{font-size: 3.2rem;line-height: 60px;color: #999999;display: inline-block;width: 49%;float: left;}
+.credit .crebtn a:first-child{border-right:1px solid #CCCCCC;}
+.credit .crebtn a.selected{color: #06C1AE;border-bottom: 5px solid #06C1AE;}
+.credit .crelist{margin:10px 0 0 0;}
+.credit .crelist ul li{background:#FFFFFF;padding: 0 20px;}
+.credit .crelist ul li div.tltbox{line-height: 35px;padding: 10px 0;}
+.credit .crelist ul li div.tltbox span{display:inline-block;float:left;}
+.credit .crelist ul li div.tltbox span.num{width:34%;color: #FF6633;font-size: 3rem;}
+.credit .crelist ul li div.tltbox span.num i{font-size:4rem;}
+.credit .crelist ul li div.tltbox span.tlt{width:33%;font-size: 1.8rem;color: #666666;}
+.credit .crelist ul li div.tltbox span.tlt em{color: #FF6633;font-size: 2.4rem;vertical-align: bottom;}
+.credit .crelist ul li div.tltbox span.time{text-align: right;width:33%;font-size: 1.8rem;color: #999999;}
 
-
-
-
-
-
-
-
+.credit .crelist ul li{border-bottom: 1px solid #CCCCCC;}
+.credit .crelist ul li:last-child{border:none;}
+.credit .crelist ul li div.txtbox{padding: 0 0 10px 0;}
+.credit .crelist ul li div.txtbox span{display:inline-block;float:left;}
+.credit .crelist ul li div.txtbox span.ice_state{width: 34%;}
+.credit .crelist ul li div.txtbox span.ice_state em{color: #FFFFFF;background: #FE7079;padding: 5px 20px;text-align: center;display: inline-block;margin: 0 0 0 44px;}
+.credit .crelist ul li div.txtbox span.tlt{width:33%;font-size: 1.8rem;color: #666666;}
+.credit .crelist ul li div.txtbox span.lastdate{text-align: right;width:33%;font-size: 1.8rem;color: #666666;}
+.credit .crelist ul li div.txtbox span.lastdate em{color:#999999;}
 
 
 
