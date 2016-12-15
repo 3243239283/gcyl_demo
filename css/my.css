@@ -31,7 +31,8 @@
 .shop p a.forward{margin-left: 36px;}
 .shop a i.iconfont{font-size: 3.2rem;}
 .shop a i.forward{margin: 0 0 0 20px;}
-.code{text-align: center;margin: 100px 0;}
+.code{text-align: center;background: rgba(0,0,0,0.5);height: 100%;}
+.imgbox{width:90%;height:70%;background:#FFFFFF;position: relative;top: 15%;left: 5%;}
 
 /* 我的授信额 */
 .grant{position:fixed;top:0;width:100%;z-index: 2;font-size: 3.2rem;line-height: 80px;color: #FFFFFF;text-align: center;}
@@ -306,7 +307,11 @@ margin: 22px 0 0 0;}
 .credit .crelist ul li div.txtbox span{display:inline-block;float:left;}
 .credit .crelist ul li div.txtbox span.ice_state{width: 34%;}
 .credit .crelist ul li div.txtbox span.ice_state em{color: #FFFFFF;background: #FE7079;padding: 5px 20px;text-align: center;display: inline-block;margin: 0 0 0 44px;}
+.credit .crelist ul li div.txtbox span.has_ice{width:34%;text-indent: 44px;font-size: 1.8rem;color: #666666;}
+.credit .crelist ul li div.txtbox span.has_ice em{color: #FF6633;font-size: 2.4rem;vertical-align: middle;}
+.credit .crelist ul li div.txtbox span.has_ice i{color: #FF6633;font-size: 2.4rem;vertical-align: middle;}
 .credit .crelist ul li div.txtbox span.tlt{width:33%;font-size: 1.8rem;color: #666666;}
+.credit .crelist ul li div.txtbox span.tlt em{color: #FF6633;font-size: 2.4rem;vertical-align: middle;}
 .credit .crelist ul li div.txtbox span.lastdate{text-align: right;width:33%;font-size: 1.8rem;color: #666666;}
 .credit .crelist ul li div.txtbox span.lastdate em{color:#999999;}
 

@@ -67,10 +67,12 @@ td {
 html{
 	font-size: 62.5%;
 	background: #f0f0f0;
+  height: 100%;
 }
 body {
   line-height: 1;
   background: #f0f0f0;
+  height: 100%;
 }
 ol,
 ul {
