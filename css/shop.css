@@ -4,36 +4,7 @@
 .shop a i.iconfont{font-size: 3.2rem;}
 .shop a i.forward{margin: 0 0 0 20px;}
 
-.beautiful{position:relative;margin: 80px 0 15px 0;}
-.beautiful img{width: 100%;}
-.beautiful .beau_txt{width:100%;position:absolute;bottom: 0;left: 0;background:rgba(0,0,0,0.4);}
-.beautiful .beau_txt p{font-size: 3.2rem;margin: 0 35px;line-height: 80px;color:#FFFFFF;}
 
-.merchants{background: #FFFFFF;font-size: 3rem;color:#999999;}
-.merchants h3{margin: 0 33px;border-bottom: 1px solid #cccccc;line-height: 79px;}
-.merchants .chants .store{font-size: 3.2rem;color:#333333;margin: 0 0 10px 0;}
-.merchants .chants{margin: 28px 33px 0;}
-.merchants .chants .chantxt p i.iconfont{color: #ff9900;font-size: 3.2rem;}
-.merchants .chants .chantxt{display:inline-block;}
-.merchants .chants .chantxt p span.money{font-size:2.4rem;}
-.merchants .chants .paybox{display: inline-block;margin: 24px 0;}
-.merchants .chants .map{margin: 45px 0 0 0;padding-bottom: 20px;}
-.merchants .chants .map div{display:inline-block;}
-.merchants .chants .map div a{font-size: 2.4rem;}
-.merchants .chants .map div i.iconfont{font-size: 3.2rem;}
-.merchants .chants .map div.add_txt{color:#999999;width: 77%;}
-.merchants .chants .map .phonenum a i{color: #ff9900;margin: 0 0 0 50px;}
-.merchants .chants .map .phonenum{width: 21%;line-height: 60px;border-left: 1px solid #cccccc;}
-
-.gift{background:url(../img/gift.png) no-repeat left #FFFFFF;text-indent: 88px;margin: 15px 0;}
-.gift p:first-child{font-size:2.8rem;color:#000000;padding:36px 0 10px 0;}
-.gift p:last-child{font-size:2.4rem;color:#7d7d7d;padding-bottom: 36px;}
-
-.product{background:#FFFFFF;padding:31px 29px;}
-.product .duct{position: relative;margin-left: 135px;height: 115px;}
-.product .duct img{position: absolute;left: -135px;top: 0;margin: 0;}
-.product .duct .imgtxt p:first-child{font-size: 2.8rem;color: #000000;line-height: 50px;}
-.product .duct .imgtxt p{font-size:2rem;color:#9d9d9d;line-height:32px;}
 
 
 
