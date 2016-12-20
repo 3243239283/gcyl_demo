@@ -1,29 +1,32 @@
 .money{font-size: 3.2rem;padding:25px 30px;background: #06c1ae;color: #FFFFFF;text-align: center;}
 .money a i.iconfont{font-size: 3.2rem;float: left;}
 
-.balance li{background:#FFFFFF;margin:20px 0;}
+.balance li{background:#FFFFFF;margin:20px 0;box-shadow: 2px 3px 5px #999;}
 .balance li p.ba_tlt{font-size:3rem;color: #999999;padding:35px 35px 0;}
 .balance li p.ba_tlt a{margin:0 0 0 35px;}
 .balance li p.ba_tlt a i{font-size:3rem;}
 .balance li p.ba_tlt a{font-size:2.6rem;}
-.balance li p.num{padding: 20px 35px 35px;font-size:5rem;color: #fa8d3d;}
+.balance li p.num{text-indent: 50px;padding: 20px 35px 35px;font-size:5rem;color: #FF6633;}
+.balance li p.num span{color: #666666;font-size: 2.6rem;margin: 20px 0 0 0;}
+.balance li p.num span em{color:#FF6633;margin-left: 20px;}
+.balance li p.num em{color: #666666;font-size: 3rem;}
+.balance li p.subscribe{font-size: 3rem;text-align: center;margin: 0 20px;border-top: 1px solid #CCCCCC;padding: 15px 0;color: #333333;}
+.balance li p.subscribe i{font-size: 3.6rem;color: #3FDBCB;}
+
+.balance li p:first-child span:first-child i.iconfont{font-size: 5rem;vertical-align: middle;margin-right: 5px;}
+.balance li.lance p:first-child span:first-child i.iconfont{color:#FFCF31;}
+.balance li.tegral p:first-child span:first-child i.iconfont{color:#FE9F21;}
+.balance li.thigh p:first-child span:first-child i.iconfont{color:#FE7970;}
+.balance li.cher p:first-child span:first-child i.iconfont{color:#8CD747;}
 
 .balance li.lance{border-left:16px solid #06c1ae;}
 .balance li.tegral{border-left:16px solid #faba3d;}
 .balance li.cher{border-left:16px solid #e3404c;}
 .balance li.thigh{border-left:16px solid #fb9346;}
-.balance li.benefit{border-left:16px solid #fa4f3e;background:url(../img/baili.png) #ffffff no-repeat 370px 10px;}
 
-.balance li div.charge{padding: 0 33px 22px;}
-.balance li div.charge a:first-child{padding-right: 150px;margin-right:20px;border-right: 1px solid #f0f0f0;}
-.balance li div.charge a{display: inline-block;font-size: 2.8rem;}
-.balance li div.charge a p{color: #999999;margin-bottom: 10px;}
-.balance li div.charge a span.branch{color: #fa8d3d;}
-
-.benefit a .be_txt{display: inline-block;margin: 45px 0 45px 33px;}
-.benefit a .be_txt p:first-child{font-size: 3rem;color: #999999;}
-.benefit a .be_txt p:last-child{font-size: 1.4rem;color: #999999;}
-.benefit a i{display: inline-block;font-size: 3rem;margin: 55px 33px 0 0;color: #999999;}
+.addmoney{padding: 20px 0;background:#FFFFFF;text-align:center;color:#333333;font-size:3rem;border-top: 1px solid #CCCCCC;border-bottom: 1px solid #CCCCCC;position: absolute;width: 100%;bottom: 10px;}
+.addmoney a{padding: 0 50px;}
+.addmoney a i{color:#3FDBCB;font-size:4rem;vertical-align: middle;}
 
 /* 二维码 */
 .shop{position:fixed;top:0;width:100%;z-index: 2;font-size: 3.2rem;line-height: 80px;height: 80px;background: #06c1ae;color: #FFFFFF;text-align: center;}
@@ -31,7 +34,7 @@
 .shop p a.forward{margin-left: 36px;}
 .shop a i.iconfont{font-size: 3.2rem;}
 .shop a i.forward{margin: 0 0 0 20px;}
-.code{background: rgba(0,0,0,0.5);padding: 30px 0;}
+.code{}
 .imgbox{border-radius: 10px;width:90%;background:#FFFFFF;margin: 0 auto;}
 .imgbox .portrait .probox div{display:inline-block;}
 .imgbox .portrait .probox .porimg{width:25%;}
@@ -59,7 +62,7 @@
 .grant .e_box p.edu{text-align:center;font-size:2.5rem;line-height: 50px;padding: 10px 0 0 0;}
 .grant .e_box p.edunum{font-size:2.4rem;line-height: 50px;margin: 10px 0 40px 0;}
 .grant .e_box p.edunum span{font-size:4rem;font-weight: bold;color: #FBB66B;}
-.amount{margin: 230px 0 0 0;line-height: 80px;font-size: 2.4rem;}
+.amount{margin: 228px 0 0 0;line-height: 80px;font-size: 2.4rem;}
 .amount>div{padding:0 35px 0 15px;color: #333333;background: #FFFFFF;border-top: 1px solid #E6E6E6;border-bottom: 1px solid #E6E6E6;}
 .amount div:first-child{border-left: 8px solid #FFCF31;margin:0 0 14px 0;}
 .amount div:nth-child(2){border-left: 8px solid #FE7970;}

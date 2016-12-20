@@ -4,7 +4,51 @@
 .shop a i.iconfont{font-size: 3.2rem;}
 .shop a i.forward{margin: 0 0 0 20px;}
 
+.store{position:relative;margin: 80px 0 0 0;background:url(../img/detail/storebanner.png);padding: 0 38px;height: 280px;}
+.store .storeimg{width: 23%;display: inline-block;height: 100%;}
+.store .storeimg img{width: 120px;height: 120px;border-radius: 50%;border: 5px solid #06C1AE;margin-top: 95px;}
+.store .storetxt{width: 77%;height:100%;}
+.store .storetxt p:first-child{padding: 110px 0 8px 15px;}
+.store .storetxt p:last-child{padding:0 0 0 20px;}
+.store .storetxt p i{color:#FF9900;font-size: 3rem;padding: 0px 0 10px;}
+.store .storetxt h3{color: #1A1A1A;font-size: 2.8rem;padding:5px 0 10px 20px;}
+.store .storetxt p em{color:#003333;font-size: 2rem;padding:0 20px 0 0;}
+.store .notice{position: absolute;bottom: 0;width: 100%;left: 0;padding: 15px 0;background: #F0F0F0;color: #333333;font-size: 1.8rem;}
+.store .notice span{background: #06C1AE;color: #FFFFFF;padding: 5px 10px;border-radius: 5px;margin: 0 10px 0 185px;}
+.address{background:#FFFFFF;color:#999999;padding:16px 20px;font-size: 2rem;border-bottom: 1px solid #F0F0F0;}
+.address i{font-size: 4rem;vertical-align: middle;}
+.address .add{color:#06C1AE;}
+.addline{color:#999999;}
+.address .addphone{color:#06C1AE;}
 
+.integral{background:#FFFFFF;padding: 20px 20px;line-height: 35px;border-bottom: 1px solid #F0F0F0;}
+.integral p:first-child{color:#333333;font-size: 2.8rem;}
+.integral p:last-child{color:#808080;}
+.integral p:last-child em{text-indent: 40px;}
+.integral p i{font-size: 4rem;color: #FE7970;}
+.integral p:last-child span.interbtn{background: #FF6633;color: #FFFFFF;padding: 0 20px;}
+
+.recom h3{color:#333333;font-size:3rem;background:#FFFFFF;padding: 15px 20px;}
+.recom .guesslike{margin: 10px 0 0 0;}
+.recom .guesslike h3{background: #FFF;font-size: 3.2rem;line-height: 65px;padding: 0 30px;}
+.recom .guesslike .likelist{text-align: center;}
+.recom .guesslike .likelist a{display:inline-block;width:49%;margin: 10px 0 0 0;}
+.recom .guesslike .likelist a img{width:90%;}
+.recom .guesslike .likelist a p.like_tlt{font-size: 2.4rem;color: #1A1A1A;text-indent: 22px;text-align: left;padding: 5px 0;background: #FFFFFF;margin: 0 15px;}
+.recom .guesslike .likelist a p.like_txt{color:#FF6633;font-size: 3rem;text-indent: 22px;text-align: left;background: #FFFFFF;margin: 0 15px;padding: 0 0 5px 0;}
+.recom .guesslike .likelist a p.like_txt span.sum i.iconfont{font-size: 3rem;vertical-align: bottom;color:#FF9900;}
+.recom .guesslike .likelist a p.like_txt span.sum{margin-right: 20px;color:#FF6633;font-size:2.4rem;}
+.recom .more_recom{display: block;background: #CCCCCC;text-align: center;padding: 15px 0;font-size: 2.8rem;color: #FFFFFF;}
+
+.knowbox{background: #FFFFFF;margin:100px 20px 100px;}
+.knowbox p:first-child{color: #06C1AE; font-size: 3rem;padding: 15px 0px;text-align: center;}
+.knowbox p:first-child i:first-child{font-size: 4rem;}
+.knowbox p:first-child i:last-child{font-size: 4rem;color:#999999;margin-right: 33px;}
+.knowbox img{width: 100%;}
+.knowbox p:last-child{text-align:center;padding: 10px 0;}
+.knowbox p:last-child a{padding: 14px 60px;display: inline-block;margin: 0 20px;}
+.knowbox p:last-child a:first-child{border:1px solid #06C1AE;color:#06C1AE;}
+.knowbox p:last-child a:last-child{background:#06C1AE;color:#FFFFFF;}
 
 
 

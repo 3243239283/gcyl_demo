@@ -44,3 +44,35 @@
 .op_statebox p span.cancel{color:#999999;}
 .op_sellbtn{text-align:center;position: fixed;bottom:50px;width: 100%;}
 .op_sellbtn a{background: #FF9F22;color: #FFFFFF;display: block;font-size: 2.8rem;width: 80%;height: 60px;line-height: 60px;margin: 0 auto;}
+
+.option_banner{margin: 81px 0 0 0;}
+.marketvalue{background:#FFFFFF;padding: 35px 25px;}
+.marketvalue div.marimg{width: 20%;display:inline-block;float: left;}
+.marketvalue div.marimg i{color: #FE7970;font-size: 10rem;}
+.marketvalue div.martxt{width: 80%;display:inline-block;float: left;}
+.marketvalue div.martxt p:first-child{color:#666666;padding: 0 0 30px 0;}
+.marketvalue div.martxt p:first-child span:first-child{font-size:3rem;}
+.marketvalue div.martxt p:first-child span:last-child{font-size: 1.8rem;margin: 8px 0 0 0;}
+.marketvalue div.martxt p:first-child span:last-child em{color:#FF6633;}
+.marketvalue div.martxt p:last-child {color:#999999;font-size:2rem;}
+.marketvalue div.martxt p:last-child em{color:#FF6633;font-size: 4rem;}
+.op_buybtn{position: absolute;bottom: 100px;width: 100%;}
+.op_buybtn a{background: #FF6633;color: #FFFFFF;display: block;font-size: 2.8rem;width: 80%;
+    height: 70px;line-height: 70px;margin: 0 auto;text-align: center;border-radius: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
