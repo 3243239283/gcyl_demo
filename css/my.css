@@ -1,6 +1,7 @@
 .money{font-size: 3.2rem;padding:25px 30px;background: #06c1ae;color: #FFFFFF;text-align: center;}
 .money a i.iconfont{font-size: 3.2rem;float: left;}
 
+.balance{padding-bottom: 100px;position:relative;}
 .balance li{background:#FFFFFF;margin:20px 0;box-shadow: 2px 3px 5px #999;}
 .balance li p.ba_tlt{font-size:3rem;color: #999999;padding:35px 35px 0;}
 .balance li p.ba_tlt a{margin:0 0 0 35px;}
