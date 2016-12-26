@@ -16,8 +16,8 @@
 .option a i.iconfont{font-size: 3.2rem;float: left;}
 .op_phosebox{margin: 100px 0 120px 0;}
 .op_phosebox ul li{background:#FFFFFF;padding: 0 38px;border-bottom: 1px solid #efefef;}
-.op_phosebox p{padding:7px 0;font-size: 2.4rem;line-height:35px;}
-.op_phosebox p span{width: 40%;}
+.op_phosebox p{color: #666666;padding:7px 0;font-size: 2.4rem;line-height:35px;}
+.op_phosebox p span{width: 40%;margin: 7px 0 0 0;}
 .op_phosebox p:first-child i{font-size:4rem;color:#3FDBCB;}
 .op_phosebox p:first-child span{float:right;color:#333333;}
 .op_phosebox p:first-child span em:first-child{color:#FF6633;}
