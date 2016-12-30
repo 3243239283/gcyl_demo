@@ -30,11 +30,13 @@
 .donationlist ul li div.charimg img{margin: 20px 0 20px 20px;width:100px;height: 100px;border-radius: 50%;}
 .donationlist ul li div.chartxt p{font-size: 2.8rem;}
 .donationlist ul li div.chartxt p:first-child{padding: 30px 0 20px;}
-.donationlist ul li div.chartxt p:first-child span i{vertical-align: middle;color:#48D2C4;font-size: 3.2rem;}
+.donationlist ul li div.chartxt p:first-child span i{vertical-align: text-bottom;color:#48D2C4;font-size: 3.2rem;padding: 0 0 0 20px;}
+.donationlist ul li div.chartxt p:first-child span{color:#666666;}
+.donationlist ul li div.chartxt p:first-child span:last-child i{color:#FF9900;padding:0 10px 0 0;}
 .donationlist ul li div.chartxt p:last-child i{vertical-align: middle;color:#48D2C4;font-size: 3.2rem;}
 .donationlist ul li div.chartxt p:first-child em{color:#333333;}
-.donationlist ul li div.chartxt p:first-child span{color:#999999;float:right;margin-right: 20px;}
-.donationlist ul li div.chartxt p:last-child span{color:#666666;font-size: 2rem;}
+.donationlist ul li div.chartxt p:first-child span:last-child{color:#FF6633;float:right;margin-right: 20px;}
+.donationlist ul li div.chartxt p:last-child span:last-child{color:#666666;font-size: 2rem;}
 .donationlist ul li div.dobtn a i{font-size:3rem;color:#999999;}
 
 

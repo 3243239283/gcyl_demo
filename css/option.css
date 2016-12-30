@@ -52,7 +52,7 @@
 .marketvalue div.martxt{width: 80%;display:inline-block;float: left;}
 .marketvalue div.martxt p:first-child{color:#666666;padding: 0 0 30px 0;}
 .marketvalue div.martxt p:first-child span:first-child{font-size:3rem;}
-.marketvalue div.martxt p:first-child span:last-child{font-size: 1.8rem;margin: 8px 0 0 0;}
+.marketvalue div.martxt p:first-child span:last-child{font-size: 2rem;margin: 8px 0 0 0;}
 .marketvalue div.martxt p:first-child span:last-child em{color:#FF6633;}
 .marketvalue div.martxt p:last-child {color:#999999;font-size:2rem;}
 .marketvalue div.martxt p:last-child em{color:#FF6633;font-size: 4rem;}

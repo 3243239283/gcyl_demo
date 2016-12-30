@@ -45,4 +45,25 @@ define(['jquery','index','layer','cssjs!layercss'],function(jquery){
 		}
 	});
 
+	/*合计*/
+	$('.tobtn_num').on('click',function(){
+		if($(this).prop("checked"))
+        {
+            console.log("选中");
+            $('input[name="cart"]').prop('checked',true);
+        }else{
+            console.log('未选中');
+            $('input[name="cart"]').prop('checked',false);
+        }
+	});
+
+	$('input[name="cart"]').on('click',function(){
+		if($(this).prop("checked"))
+        {
+            return true;
+        }else{
+            $('.tobtn_num').prop('checked',false);
+        }
+	})
+
 });
