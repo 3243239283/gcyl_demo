@@ -333,16 +333,21 @@ margin: 22px 0 0 0;}
 .credit .crelist ul li div.txtbox span.lastdate{text-align: right;width:33%;font-size: 1.8rem;color: #666666;}
 .credit .crelist ul li div.txtbox span.lastdate em{color:#999999;}
 
-
-
-
-
-
-
-
-
-
-
+/*期权股明细*/
+.money_stock{top: 0;position: fixed;width: 100%;font-size: 3.2rem;padding:25px 30px;background: #06c1ae;color: #FFFFFF;text-align: center;}
+.money_stock a i.iconfont{font-size: 3.2rem;float: left;}
+.stock_detail{background:#FFFFFF;margin:100px 0 0 0;}
+.stock_detail ul li{margin: 0 20px;padding: 15px 0;border-bottom:1px solid #CACACA;}
+.stock_detail ul li:last-child{border:none;}
+.stock_detail ul li div.sto_txt{width:90%;display:inline-block;float:left;}
+.stock_detail ul li div.sto_btn{width:10%;display:inline-block;float:left;text-align:right;}
+.stock_detail ul li div.sto_txt p{padding: 6px 0;}
+.stock_detail ul li div.sto_txt p:first-child{font-size:2.8rem;color: #333333;}
+.stock_detail ul li div.sto_txt p:first-child span.sto_time{color: #999999;font-size: 2rem;}
+.stock_detail ul li div.sto_txt p:last-child{color:#666666;font-size:2.6rem;}
+.stock_detail ul li div.sto_txt p:last-child span.mon{color:#FF6633;}
+.stock_detail ul li div.sto_btn a{color: #999999;}
+.stock_detail ul li div.sto_btn a i{margin: 25px 0 0 0;display: inline-block;font-size: 2.6rem;}
 
 
 

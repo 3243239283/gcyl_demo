@@ -1,0 +1,79 @@
+.payhead{position:fixed;top:0;width:100%;z-index: 2;font-size: 3.2rem;line-height: 80px;background: #06c1ae;color: #FFFFFF;text-align: center;}
+.payhead>p{padding: 0 38px;}
+.payhead p a.forward{margin-left: 36px;}
+.payhead a i.iconfont{font-size: 3.2rem;}
+.payhead a i.forward{margin: 0 0 0 20px;}
+
+.payorder .address{padding: 15px 0;}
+.payorder .address{margin: 79px 0 0 0;background: #FFFFFF;}
+.payorder .address .addicon{width:10%;}
+.payorder .address .addicon i{font-size: 3.2rem;color: #06C1AE;margin: 37px 0 0 20px;display: inline-block;}
+.payorder .address .addtxt{width:80%;}
+.payorder .address .addtxt p:first-child{color:#333333;font-size:2.8rem;}
+.payorder .address .addtxt p:last-child span{color:#333333;text-align:justify}
+.payorder .address .addtxt p:last-child{line-height: 28px;color:#999999;font-size: 2.2rem;margin: 10px 0 0 0;}
+.payorder .address .addbtn{width:10%;}
+.payorder .address .addbtn i{display: inline-block;font-size: 2.2rem;margin: 38px 0 0 20px;color: #999999;}
+
+.payorder .paybox{background: #FFFFFF;margin: 15px 0;border-top: 1px solid #efefef;border-bottom: 1px solid #efefef;font-size: 2.8rem;}
+.payorder .paybox .tlt{color:#1A1A1A;padding: 10px 0;}
+.payorder .paybox .tlt i{color:#F06D8A;font-size: 4rem;margin:0 3px 0 17px;}
+.payorder .paybox .boxtxt{background:#F5F5F5;padding:15px 20px;}
+.payorder .paybox .boxtxt .img{display: inline-block;}
+.payorder .paybox .boxtxt .imgtxt{display: inline-block;}
+.payorder .paybox .boxtxt .imgtxt p:first-child{color:#666666;font-size: 2.4rem;margin: 20px 0 60px 20px;}
+.payorder .paybox .boxtxt .imgtxt p:last-child{font-size: 3rem;color:#FF6633;margin: 0 0 0 20px;}
+.payorder .paybox .boxtxt .imgtxt p:last-child em{font-size: 2.4rem;}
+.payorder .paybox .boxtxt .imgtxt p:last-child span:first-child{margin:0 100px 0 0;}
+.payorder .paybox .boxtxt .imgtxt p:last-child span i{font-size: 2.8rem;vertical-align: top;color: #FF9900;padding: 0 5px 0 0;}
+.payorder .paybox .boxtxt .imgtxt p:last-child span:last-child{font-size:2.6rem;}
+.payorder .paybox .boxsum{background: #FFFFFF;padding: 10px 20px;}
+.payorder .paybox .boxsum .count a {border: 1px solid #999999;display: inline-block;width: 65px;height: 50px;line-height: 50px;text-align: center;}
+.payorder .paybox .boxsum .count input {width: 70px;height: 48px;line-height: 48px;font-size: 3rem;border-top: 1px solid #999999;border-bottom: 1px solid #999999;text-align: center;color: #333333;}
+.payorder .paybox .boxsum .count a i.iconfont {font-size: 4rem;display: inline-block;line-height: 50px;color: #c8c8c8;}
+.payorder .paybox .boxsum .count span{font-size: 3rem;line-height: 50px;color:#1A1A1A;}
+
+.payorder .paybox .sumtxt{}
+.payorder .paybox .sumtxt p:first-child{color: #333333;font-size: 2.8rem;padding: 20px 20px;}
+.payorder .paybox .sumtxt p:first-child i{margin: 0 10px 0 0;color: #FF9900;font-size: 3rem;}
+.payorder .paybox .sumtxt p:first-child span{float:right;color:#FF6633;}
+.payorder .paybox .sumtxt p:last-child{padding: 20px 20px;text-align:right;}
+.payorder .paybox .sumtxt p:last-child span{color:#FF6633;font-size: 2.4rem;}
+.payorder .paybox .sumtxt p:last-child span em{font-size: 3.4rem;}
+
+.payorder .paybox .payway{margin: 0 0 120px 0;}
+.payorder .paybox .payway h3{color: #333333;margin: 0 20px;border-bottom: 1px solid #E0E0E0;padding: 10px 0;font-size: 3rem;}
+.payorder .paybox .payway ul li{margin: 0 20px;padding: 10px 0;border-bottom: 1px solid #E0E0E0;}
+.payorder .paybox .payway ul li:last-child{border:none;}
+.payorder .paybox .payway ul li i{font-size: 5rem;vertical-align: middle;}
+.payorder .paybox .payway ul li i.wx{color:#80BD31;}
+.payorder .paybox .payway ul li i.zfb{color:#00B4E8;}
+.payorder .paybox .payway ul li i.qb{color:#FFCF31;}
+.payorder .paybox .payway ul li i.jf{color:#8CD747;}
+.payorder .paybox .payway ul li span{color:#333333;font-size:2.8rem;}
+.payorder .paybox .payway ul li span em{color:#FF6633;}
+.payorder .paybox .payway ul li input{width: 35px;height: 35px;vertical-align: middle;float: right;}
+
+.payorder .payinput{background:#FFFFFF;height: 90px;position: fixed;width: 100%;bottom: 0px;}
+.payorder .payinput .paysum{display:inline-block;width:70%;height:100%;}
+.payorder .payinput .pay_a{display:inline-block;width:30%;height:100%;background: #FF6633;color: #FFFFFF;line-height: 90px;text-align: center;font-size: 3rem;}
+.payorder .payinput .paysum p:first-child{font-size: 3rem;color: #333333;text-align: center;padding: 15px 0 10px 0;}
+.payorder .payinput .paysum p:first-child span{color: #FF6633;font-size: 3rem;}
+.payorder .payinput .paysum p:first-child span em{font-size:2rem;}
+.payorder .payinput .paysum p:last-child{font-size: 1.8rem;color: #666666;text-indent: 195px;}
+.payorder .payinput .paysum p:last-child span{color:#FF6633;}
+.payorder .payinput .paysum p:last-child i{color:#FFA825;font-size: 2rem;}
+.payorder .payinput .paysum p:last-child em{color:#FF6633;}
+
+
+
+
+
+
+
+
+
+
+
+
+
