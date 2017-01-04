@@ -349,6 +349,11 @@ margin: 22px 0 0 0;}
 .stock_detail ul li div.sto_btn a{color: #999999;}
 .stock_detail ul li div.sto_btn a i{margin: 25px 0 0 0;display: inline-block;font-size: 2.6rem;}
 
-
-
+/*收支详情*/
+.detail_one {background: #FFFFFF;margin: 82px 0 0 0;}
+.detail_one ul li{padding: 15px 0;margin: 0 20px;border-bottom:1px solid #E0E0E0;}
+.detail_one ul li:last-child{border:none;}
+.detail_one ul li p span:first-child{color:#666666;font-size:2.8rem;}
+.detail_one ul li p span:last-child{color:#333333;font-size:2.4rem;}
+.detail_one ul li p span:last-child em{color:#FF6633;}
 
