@@ -1,0 +1,103 @@
+.debox{position: fixed;width: 100%;top: 0;}
+
+.transfer{font-size: 3.2rem;padding:25px 30px;background: #06c1ae;color: #FFFFFF;text-align: center;}
+.transfer a i.iconfont{font-size: 3.2rem;float: left;}
+.transfer a:last-child{font-size:2.4rem;margin: 5px 0 0 0;}
+
+.tranbtn{background:#FFFFFF;text-align: center;}
+.tranbtn p{background:url(../img/centerline.png) center center no-repeat;}
+.tranbtn p a{color:#999999;font-size:2.8rem;width: 49%;display: inline-block;text-align: center;padding: 15px 0;}
+.tranbtn p a.selected{border-bottom: 4px solid #06C1AE;}
+
+.tranbox{margin: 20px 0 0 0;}
+.tranbox .box ul.trantlt{background:#FFFFFF;}
+.tranbox .box ul.trantlt li{margin: 0 20px;padding: 15px 0;font-size:2.8rem;border-bottom:1px solid #CCCCCC;}
+.tranbox .box ul.trantlt li:last-child{border:none;}
+.tranbox .box p{padding:20px 20px;font-size:2rem;color:#999999;}
+.tranbox .box ul.trantlt li span:first-child{color: #666666;}
+.tranbox .box ul.trantlt li span:last-child{color: #FF6633;margin: 17px 0 0 0;}
+.tranbox .box ul.trantlt li input{padding: 15px 0;width: 300px;vertical-align: middle;margin-left: 60px;border: none;font-size:2.8rem;}
+
+.tranbox .box ul.tranpay{background:#FFFFFF;}
+.tranbox .box ul.tranpay li{margin: 0 20px;padding: 15px 0;font-size:2.8rem;border-bottom:1px solid #CCCCCC;color: #666666;}
+.tranbox .box ul.tranpay li:last-child{border:none;}
+.tranbox .box ul.tranpay li i{font-size:5rem;vertical-align:middle;margin-right: 20px;}
+.tranbox .box ul.tranpay li input{width:35px;height:35px;}
+.tranbox .box ul.tranpay li i.jf{color:#FF9900;}
+.tranbox .box ul.tranpay li i.qqg{color:#FF6633;}
+.tranbox .box ul.tranpay li i.ye{color:#FFCF31;}
+
+.tranbtnok{position:fixed;bottom: 20px;width:100%;}
+.tranbtnok a{display:block;background:#06C1AE;margin: 0 20px;color: #FFFFFF;line-height: 65px;text-align: center;border-radius: 5px;font-size: 2.8rem;}
+
+.balance>h3{padding: 15px 20px;margin: 0 0 20px 0;color:#666666;font-size:2.8rem;background:#FFFFFF;border-bottom: 1px solid #CACACA;}
+.balance>h3 i{color:#FF9900;font-size:4rem;vertical-align: middle;padding: 0 10px 0 0;}
+.balance>h3 span{color:#FF6633;font-size:3.2rem;vertical-align: middle;}
+.balance .turnbox{background:#FFFFFF;}
+.balance .turnbox p:first-child{font-size: 3rem;color: #333333;}
+.balance .turnbox p:first-child em{font-size: 2.4rem;color: #999999;}
+.balance .turnbox p input{font-size: 2.8rem;border: none;text-indent: 60px;}
+
+.balance .turnbox h3{padding: 15px 20px;margin: 0 0 20px 0;color:#666666;font-size:2.8rem;background:#FFFFFF;border-bottom: 1px solid #CACACA;border-top: 1px solid #CACACA;}
+.balance .turnbox h3 i{color:#FF9900;font-size:4rem;vertical-align: middle;padding: 0 10px 0 0;}
+.balance .turnbox h3 span{color:#FF6633;font-size:3.2rem;vertical-align: middle;}
+
+/*转账明细*/
+.detail_btn{background:#FFFFFF;text-align: center;}
+.detail_btn p{}
+.detail_btn p a{background:url(../img/centerline.png) center left no-repeat;color:#999999;font-size:2.8rem;width: 25%;display: inline-block;text-align: center;padding: 15px 0;float: left;}
+.detail_btn p a:first-child{background:none;}
+.detail_btn p a.selected{border-bottom: 4px solid #06C1AE;}
+
+.detai_list{background:#FFFFFF;margin: 160px 0 0 0;}
+.detai_list ul li{border-bottom:1px solid #CCCCCC;}
+.detai_list ul li .list_tlt{display:inline-block;width:20%;}
+.detai_list ul li .list_img{display:inline-block;width:20%;}
+.detai_list ul li .list_img img{border-radius: 50%;margin: 10px 0 0 15px;}
+.detai_list ul li .list_money{display:inline-block;width:60%;}
+.detai_list ul li{padding: 15px 20px;}
+.detai_list ul li div.list_tlt p:first-child{margin: 20px 0 10px 0;font-size:2.8rem;color:#333333;}
+.detai_list ul li div.list_tlt p:first-child i{color: #FF9900;font-size:3.8rem;vertical-align:middle;}
+.detai_list ul li div.list_tlt p:last-child{color:#999999;}
+.detai_list ul li .list_money .money{color:#FF6633;font-size:3.2rem;margin: 10px 0 25px 0;}
+.detai_list ul li .list_money .mon_txt{font-size:2.2rem;color:#666666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

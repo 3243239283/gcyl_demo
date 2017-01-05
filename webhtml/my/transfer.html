@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"/>
+    <title>光彩异联</title>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/transfer.css"/>
+    <!--iconfont-->
+    <link rel="stylesheet" href="../../plugin/iconfont/iconfont.css" />
+    <style id="_zoom"></style>
+</head>
+<body class="zoom">
+    <div class="transfer">
+		<p>
+			<a href="money.html"><i class="iconfont">&#xe607;</i></a><span>转账</span>
+			<a class="fr" href="tr_details.html">明细</a>
+		</p>
+	</div>
+	<div class="tranbtn">
+		<p>
+			<a href="javascript:" class="selected">转至账户</a>
+			<a href="javascript:">转至余额</a>
+		</p>
+	</div>
+	<div class="tranbox">
+		<div class="box account">
+			<ul class="trantlt">
+				<li><span>对方账号</span><input type="text" placeholder="请输入对方账号"></li>
+				<li><span>转出数额</span><input type="text" placeholder="整数数字"><span class="fr">积分</span></li>
+				<li><span>转账说明</span><input style="width:400px;" type="text" placeholder="请输入转账说明,限于20字以内"></li>
+			</ul>
+			<p>请选择转账类型</p>
+			<ul class="tranpay">
+				<li><i class="iconfont jf">&#xe63a;</i>积分<input class="fr" name="pay" type="radio"></li>
+				<li><i class="iconfont qqg">&#xe635;</i>期权股<input class="fr" name="pay" type="radio"></li>
+				<li><i class="iconfont ye">&#xe63b;</i>余额<input class="fr" name="pay" type="radio"></li>
+			</ul>
+		</div>
+		<div class="box balance noshow">
+			<h3><i class="iconfont">&#xe63a;</i>积分余额<span>100.00</span></h3>
+			<div class="turnbox">
+				<p>需转积分<em>(当前积分转余额比例为1:1)</em></p>
+				<p><input type="text" placeholder="请输入整数数字"></p>
+				<h3><i class="iconfont ye">&#xe63b;</i>积分余额<span>80.00</span></h3>
+			</div>	
+		</div>
+	</div>
+	<div class="tranbtnok">
+		<a href="javascript:">确认转账</a>
+	</div>
+	<script src="../../js/zoom.js"></script>
+	<!--模块化工具-->
+    <script src="../../plugin/requirejs/require.js" data-main="../../js/transfer"></script>
+    <script src="../../js/require-config.js"></script>
+</body>
+</html> 
+
+
