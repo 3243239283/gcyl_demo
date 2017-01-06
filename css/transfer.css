@@ -62,11 +62,17 @@
 .detai_list ul li .list_money .money{color:#FF6633;font-size:3.2rem;margin: 10px 0 25px 0;}
 .detai_list ul li .list_money .mon_txt{font-size:2.2rem;color:#666666;}
 
-
-
-
-
-
+/*转账详情*/
+.listbox{margin: 81px 0 0 0;}
+.listbox div.list_tlt{border-bottom: 1px solid #E0E0E0;background:#FFFFFF;margin:0 0 15px 0;text-align:center;}
+.listbox div.list_tlt p:first-child{color:#1A1A1A;font-size:2.8rem;padding:30px 0;}
+.listbox div.list_tlt p:first-child i{color: #FFCF31;font-size: 6rem;vertical-align: sub;margin: 0 10px 0 0;}
+.listbox div.list_tlt p.list_money{color: #FF6633;font-size: 4rem;}
+.listbox div.list_tlt p:last-child{color: #999999;padding: 15px 0 25px;}
+.listbox ul{background:#FFFFFF;border-bottom: 1px solid #E0E0E0;border-top: 1px solid #E0E0E0;}
+.listbox ul li{margin: 0 20px;padding: 15px 0;border-bottom: 1px solid #E0E0E0;font-size:2.8rem;color:#666666;}
+.listbox ul li:last-child{border:none;}
+.listbox ul li span{color:#333333;}
 
 
 
