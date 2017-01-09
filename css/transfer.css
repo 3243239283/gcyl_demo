@@ -57,7 +57,7 @@
 .detai_list ul li .list_money{display:inline-block;width:60%;}
 .detai_list ul li{padding: 15px 20px;}
 .detai_list ul li div.list_tlt p:first-child{margin: 20px 0 10px 0;font-size:2.8rem;color:#333333;}
-.detai_list ul li div.list_tlt p:first-child i{color: #FF9900;font-size:3.8rem;vertical-align:middle;}
+.detai_list ul li div.list_tlt p:first-child i{padding: 0 5px 0 0;color: #FF9900;font-size:3.8rem;vertical-align:middle;}
 .detai_list ul li div.list_tlt p:last-child{color:#999999;}
 .detai_list ul li .list_money .money{color:#FF6633;font-size:3.2rem;margin: 10px 0 25px 0;}
 .detai_list ul li .list_money .mon_txt{font-size:2.2rem;color:#666666;}
@@ -74,16 +74,29 @@
 .listbox ul li:last-child{border:none;}
 .listbox ul li span{color:#333333;}
 
+/*提现*/
+.withbox .tlt{margin: 0 0 10px 0;background:#FFFFFF;font-size: 2.8rem;color: #666666;padding: 15px 20px;}
+.withbox .tlt i{color:#FFCF31;font-size: 4.2rem;padding: 0 10px 0 0;}
+.withbox .tlt em{color:#FF6633;}
+.withbox .withbox{margin: 0;background:#FFFFFF;padding: 0 20px;}
+.withbox .withbox p:first-child{padding: 15px 0;font-size:3rem;color:#333333;}
+.withbox .withbox p:last-child{padding: 10px 0 20px 0;}
+.withbox .withbox p:last-child input{border: none;text-indent: 50px;width:70%;font-size:2.8rem;}
+.withbox .withbox p:last-child a{width:30%;font-size:2.8rem;color:#FF6633;}
+.withbox h3{font-size: 2.8rem;color: #333333;padding: 10px 20px;}
+.withbox .withcard{padding: 0 20px;background:#FFFFFF;font-size: 2.8rem;color: #333333;}
+.withcard ul li{padding:10px 0;}
+.withcard ul li:first-child{border-bottom:1px solid #F0F0F0;}
+.withcard ul li i{padding: 0 10px 0 0;font-size: 5rem;vertical-align: middle;}
+.withcard ul li i.zfb{color:#00B4E8;}
+.withcard ul li i.yl{color:#FE7970;}
+.withcard ul li input{width:35px;height:35px;}
+.nextbtn{position:fixed;width: 100%;bottom: 100px;}
+.nextbtn a{border-radius: 5px;background: #06C1AE;margin: 0 20px;display: block;font-size: 3rem;color: #ffffff;text-align: center;padding: 15px 0;}
 
-
-
-
-
-
-
-
-
-
+/*充值*/
+.withbox .withbox p:first-child em{color:#999999;font-size:2rem;}
+.withcard ul li:first-child a.morecard i{font-size: 3rem;vertical-align: -webkit-baseline-middle;color: #999999;}
 
 
 
