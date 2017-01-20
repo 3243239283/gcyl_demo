@@ -35,7 +35,7 @@
 .shop p a.forward{margin-left: 36px;}
 .shop a i.iconfont{font-size: 3.2rem;}
 .shop a i.forward{margin: 0 0 0 20px;}
-.code{}
+.code{background: rgba(0,0,0,0.7);}
 .imgbox{border-radius: 10px;width:90%;background:#FFFFFF;margin: 0 auto;}
 .imgbox .portrait .probox div{display:inline-block;}
 .imgbox .portrait .probox .porimg{width:25%;}
@@ -48,9 +48,6 @@
 .imgbox .portrait .erwei img{width: 70%;}
 .imgbox .portrait .note{padding:0 0 30px 0;}
 .imgbox .portrait .note ul li{font-size:1.8rem;color:#666666;margin: 0 30px;line-height:30px;}
-
-
-
 
 /* 我的授信额 */
 .grant{position:fixed;top:0;width:100%;z-index: 2;font-size: 3.2rem;line-height: 80px;color: #FFFFFF;text-align: center;}
@@ -76,6 +73,7 @@
 .am_foot a:first-child{border-right:1px solid #CCCCCC;}
 .am_foot a:first-child i.iconfont{font-size:3rem;vertical-align: middle;background: #FFCF31;color: #FFF;border-radius: 50%;padding: 5px;margin: 0 7px 0 0;}
 .am_foot a:last-child i{font-size:3rem;vertical-align: middle;background: #FE7970;color: #FFF;border-radius: 50%;padding: 5px;margin: 0 7px 0 0;}
+
 /* 我的收藏 */
 .grant .collbtn{background: #FFFFFF;color:#1a1a1a;font-size: 2.8rem;}
 .grant .collbtn ul li{display:inline-block;width:50%;}
