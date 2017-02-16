@@ -1,0 +1,129 @@
+.india{position:fixed;top:0;width:100%;z-index: 2;font-size: 3.2rem;line-height: 80px;height: 80px;background: #06c1ae;color: #FFFFFF;text-align: center;}
+.india>p{padding: 0 38px;}
+.india p a.forward{margin-left: 36px;}
+.india a i.iconfont{font-size: 3.2rem;}
+.india a i.forward{margin: 0 0 0 20px;}
+
+.indiana{margin-top: 80px;}
+.indiana .in_banner img{width:100%;}
+.indiana .in_nav{background:#FFFFFF;text-align: center;padding: 16px 0;}
+.indiana .in_nav a{display: inline-block;margin: 0 20px;}
+.indiana .in_nav a img{width: 80%;}
+.indiana .in_nav a i{font-size: 8rem;}
+.indiana .in_nav a i.personal{color:#FF6633;}
+.indiana .in_nav a i.activity{color:#FE9F21;}
+.indiana .in_nav a i.square{color:#FE7970;}
+.indiana .in_nav a i.lottery{color:#8CD747;}
+.indiana .in_nav a p{color:#666666;font-size:2.4rem;padding: 10px 0 5px;}
+.indiana .in_message{font-size:2.4rem;padding: 20px 40px;background: #FFFFFF;color: #666666;}
+.indiana .in_message i{color:#06C1AE;vertical-align: super;font-size:4rem;}
+.indiana .in_message span{white-space: nowrap;overflow: hidden;text-overflow: ellipsis;display: inline-block;width: 90%;line-height: 44px;}
+.indiana .in_message span em{color:#06C1AE;}
+.indiana .in_classify .in_clbtn{background: #ffffff;padding: 0 40px;color: #999999;font-size: 2.8rem;margin: 20px 0;text-align: center;}
+.indiana .in_classify .in_clbtn a{display: inline-block;padding:25px 0;margin: 0 55px;}
+.indiana .in_classify .in_clbtn a.selected{color:#06C1AE;border-bottom: 4px solid #06C1AE;}
+.in_cllist .list {display: inline-block;width: 49%;background: #FFF;margin: 0 0.5% 10px;float: left;}
+.in_cllist .list a img {margin:20px auto;display: block;}
+.in_cllist .list a p.like_tlt {font-size: 2.4rem;color: #666666;text-align: justify;padding: 5px 20px;}
+.in_cllist .list .listbox{padding:0 20px;}
+.in_cllist .list .listbox .bar{display:inline-block;width:70%;float:left;color: #999999;font-size: 1.4rem;}
+.in_cllist .list .listbox .barbtn{display:inline-block;width:30%;float:left;}
+.in_cllist .list .listbox .bar p{padding:5px 0;}
+.in_cllist .list .listbox .bar p span.remainnum{color: #06C1AE;}
+.in_cllist .list .listbox .bar p span.re_name{color: #06C1AE;}
+.in_cllist .list .listbox .bar .barline{background: #efefef;height: 8px;width: 100%;display: block;border-radius: 10px;margin:5px 0;position:relative;}
+.in_cllist .list .listbox .bar .barline em{position:absolute;display:inline-block;height:8px;left:0;top:0;border-radius: 10px;background: #7FD75A;}
+.in_cllist .list .listbox .barbtn a{display: inline-block;background: #FF6633;color: #FFFFFF;font-size: 1.8rem;border-radius: 20px;margin: 5px 0 0 20px;width: 55px;height: 25px;text-align: center;line-height: 25px;}
+
+.indiana .in_snatch{background: #FFFFFF;}
+.indiana .in_snatch>a{text-align: center;display: block;}
+.indiana .in_snatch>a>img{padding: 50px 0;}
+.indiana .in_snatch .snatch{padding: 0 20px;}
+
+.indiana .in_snatch .snatch p span.static{background: #06C1AE;color: #FFFFFF;display: inline-block;padding: 5px 15px;border-radius: 18px;font-size: 2rem;}
+.indiana .in_snatch .snatch p:first-child{margin:0 0 10px 0;}
+.indiana .in_snatch .snatch p span.tlt{color:#333333;font-size:2rem;}
+.indiana .in_snatch .snatch p.state{font-size: 1.8rem;color:#999999;line-height:25px;margin: 0 0 10px 0;}
+.indiana .in_snatch .snatch p.person{color:#FF6633;}
+.indiana .in_snatch .snatch p.person em{font-size:3.4rem;}
+.indiana .in_snatch .snatch>span.bar{position:relative;display:block;background:#EEEEEE;height:10px;border-radius:10px;margin: 15px 0;}
+.indiana .in_snatch .snatch>span.bar em{background:#7FD75A;display:inline-block;position:absolute;left:0;top:0;height:10px;border-radius:10px;}
+.indiana .in_snatch .snatch p span.sta_num em{color:#06C1AE;}
+.indiana .in_snatch .snatch p.sna_txt{font-size: 1.8rem;color:#666666;}
+.indiana .in_snatch .snatch p.sna_btn{padding: 20px 0;}
+.indiana .in_snatch .snatch p.sna_btn a{display: block;background: #EDEDED;padding: 15px 0;text-align: center;color: #999999;}
+.in_sna .sna_clbtn{background: #ffffff;padding: 0 15px;color: #999999;font-size: 2.4rem;
+    margin: 20px 0 5px;text-align: center;}
+.in_sna .sna_clbtn a {display: inline-block;padding: 25px 0;width: 25%;float: left;}
+.in_sna .sna_clbtn a.selected{color:#06C1AE;border-bottom: 4px solid #06C1AE;}
+.in_sna .sna_listbox{background: #FFFFFF;padding: 0 20px;}
+.in_sna .sna_listbox ul li{border-bottom:1px solid #CCCCCC;}
+.in_sna .sna_listbox ul li .sna_head_img{display:inline-block;width:30%;}
+.in_sna .sna_listbox ul li .sna_head_txt{display:inline-block;width:70%;font-size: 2rem;}
+.in_sna .sna_listbox ul li .sna_head_img img{width:80px;height:80px;border-radius:50%;padding:20px 20px;}
+.in_sna .sna_listbox ul li .sna_head_txt p.name{color: #06C1AE;margin: 28px 0 10px 0;}
+.in_sna .sna_listbox ul li .sna_head_txt p.people{color:#999999;margin:0 0 10px 0;}
+.in_sna .sna_listbox ul li .sna_head_txt p.people em{color:#06C1AE;}
+.in_sna .sna_listbox ul li .sna_head_txt p.people span{color:#06C1AE;}
+.in_sna .sna_listbox ul li .sna_head_txt p.addtxt{color:#999999;}
+.in_sna .sna_listbox a.morelist{font-size: 2.4rem;color: #666666;display: block;text-align: center;padding: 25px 0;}
+.in_sna .promptly{background:#FF6633;font-size: 3.2rem;color: #FFFFFF;text-align: center;padding: 20px 0;}
+
+
+.youlike .like_tlt{background:#FFFFFF;color:#333333;font-size:2.4rem;margin:10px 0;}
+.youlike .like_tlt a{color:#999999}
+.youlike .like_tlt p{margin: 0 20px;padding: 15px 0;}
+
+.in_rule{margin:101px 0 0 0;background:#FFFFFF;}
+.in_rule ul li{border-bottom: 1px solid #efefef;padding: 15px 40px;color: #666666;font-size: 2.4rem;}
+.in_rule ul li span{width: 90%;display: inline-block;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.in_rule ul li i{float: right;padding: 6px 0;}
+
+.in_detail{margin:81px 0 0 0;background:#FFFFFF;}
+.in_detail i{font-size:4rem;color:red;}
+.in_detail .de_title{font-size: 2.8rem;color: #333333;padding: 15px 40px;}
+.in_detail .de_txt{font-size: 2.4rem;color: #666666;padding: 15px 40px;}
+.in_detail .de_txt i{position:absolute;left: 0;}
+.in_detail .de_txt p{text-align: justify;position: relative;padding: 0 0 30px 50px;line-height: 35px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

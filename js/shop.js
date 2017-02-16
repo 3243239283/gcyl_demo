@@ -34,6 +34,6 @@ define(['jquery','layer','cssjs!layercss'],function(jquery,layer){
                 })
             }
         });
-    }) 
+    });
 
 });
