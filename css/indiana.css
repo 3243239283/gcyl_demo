@@ -40,6 +40,18 @@
 .indiana .in_snatch>a>img{padding: 50px 0;}
 .indiana .in_snatch .snatch{padding: 0 20px;}
 
+/* 夺宝参与未中奖 */
+.no_win{margin: 0 20px;border: 1px solid #99efe6;border-radius: 8px;overflow: hidden;}
+.no_win .no_txt{background: #E6F9F7;position: relative;}
+.no_win .no_ftlt{background:#06C1AE;color: #FFFFFF;font-size: 2.8rem;padding: 20px 20px;}
+.no_win .no_ftlt p .sum{border: 1px solid #FFFFFF;border-radius: 30px;padding: 0 15px;}
+.no_win .no_txt ul li{color:#666666;}
+.no_win .no_txt ul li:last-child{color:#999999;}
+.no_win .no_txt img{position: absolute;left: 20px;top: 35px;width: 100px;height: 100px;border-radius: 50%;}
+.no_win .no_txt .no_headtxt{padding: 30px 30px 30px 155px;font-size: 2rem;}
+.no_win .no_txt .no_headtxt ul li{padding:5px 0;}
+.no_win .no_txt i.state{font-size:10rem;color:#E58076;position:absolute;top:-10px;right:20px;}
+
 .indiana .in_snatch .snatch p span.static{background: #06C1AE;color: #FFFFFF;display: inline-block;padding: 5px 15px;border-radius: 18px;font-size: 2rem;}
 .indiana .in_snatch .snatch p:first-child{margin:0 0 10px 0;}
 .indiana .in_snatch .snatch p span.tlt{color:#333333;font-size:2rem;}
@@ -86,14 +98,26 @@
 .in_detail .de_txt i{position:absolute;left: 0;}
 .in_detail .de_txt p{text-align: justify;position: relative;padding: 0 0 30px 50px;line-height: 35px;}
 
-
-
-
-
-
-
-
-
+/*计算详情*/
+.count{margin:81px 0 0 0;}
+.count .co_num{background:#FFFFFF;}
+.count .co_num p.icon{text-indent: 210px;padding: 5px 0 0px 0;}
+.count .co_num p i{color:#FE9F21;font-size:4rem;}
+.count .co_num p.num{text-align:center;color: #06C1AE;font-size: 4rem;padding: 5px 0 20px 0;}
+.count .co_num p.numtxt{text-align:center;font-size: 2.4rem;color: #333333;padding: 0 0 20px 0;}
+.count .formula{color: #FFFFFF;background:#06C1AE;margin: 15px 0 0 0;padding: 20px;}
+.count .formula h3{font-size: 2.4rem;}
+.count .formula p{font-size: 2.2rem;padding: 25px 0 0 0;}
+.count .equation{background:#FFFFFF;padding: 20px;}
+.count .equation p.eq_tlt{color:#666666;font-size: 2.2rem;line-height: 30px;}
+.count .equation p.eq_txt{border-bottom: 1px solid #999999;font-size: 2.2rem;line-height: 40px;margin-bottom: 20px;}
+.count .equation p.eq_list_tlt{color:#666666;font-size: 2.2rem;margin: 0 0 10px 0;}
+.count .equation p.eq_txt span.sum{color:#333333;}
+.count .equation p.eq_txt a{color:#06C1AE;}
+.count .equation ul li span{display:inline-block;color:#666666;font-size: 2rem;padding: 8px 0;}
+.count .equation ul li span.time{}
+.count .equation ul li span.number{color:#06C1AE;}
+.count .equation ul li span.uname{text-align: right;}
 
 
 
