@@ -77,10 +77,9 @@
 .in_sna .sna_listbox ul li .sna_head_txt p.people{color:#999999;margin:0 0 10px 0;}
 .in_sna .sna_listbox ul li .sna_head_txt p.people em{color:#06C1AE;}
 .in_sna .sna_listbox ul li .sna_head_txt p.people span{color:#06C1AE;}
-.in_sna .sna_listbox ul li .sna_head_txt p.addtxt{color:#999999;}
+.in_sna .sna_listbox ul li .sna_head_txt p.addtxt{padding: 0 0 20px 0;color:#999999;}
 .in_sna .sna_listbox a.morelist{font-size: 2.4rem;color: #666666;display: block;text-align: center;padding: 25px 0;}
 .in_sna .promptly{background:#FF6633;font-size: 3.2rem;color: #FFFFFF;text-align: center;padding: 20px 0;}
-
 
 .youlike .like_tlt{background:#FFFFFF;color:#333333;font-size:2.4rem;margin:10px 0;}
 .youlike .like_tlt a{color:#999999}
