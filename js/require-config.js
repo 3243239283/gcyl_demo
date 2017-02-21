@@ -35,6 +35,7 @@ require.config({
         "layer":"../plugin/layermobil/layer",
         "uploadify":"../plugin/uploadify/jquery.uploadify",
         "index":"../js/index",
+        "pay":"../js/pay",
         //css文件的定义方法
         "layercss":"../plugin/layermobil/layer",
         "flexslidercss": "../plugin/flexslider/flexslider",      //异步请求flexslider插件需要的.css文件

@@ -4,7 +4,7 @@
 .india a i.iconfont{font-size: 3.2rem;}
 .india a i.forward{margin: 0 0 0 20px;}
 
-.indiana{margin-top: 80px;}
+.indiana{margin-top: 80px;position: relative;}
 .indiana .in_banner img{width:100%;}
 .indiana .in_nav{background:#FFFFFF;text-align: center;padding: 16px 0;}
 .indiana .in_nav a{display: inline-block;margin: 0 20px;}
@@ -80,6 +80,33 @@
 .in_sna .sna_listbox ul li .sna_head_txt p.addtxt{padding: 0 0 20px 0;color:#999999;}
 .in_sna .sna_listbox a.morelist{font-size: 2.4rem;color: #666666;display: block;text-align: center;padding: 25px 0;}
 .in_sna .promptly{background:#FF6633;font-size: 3.2rem;color: #FFFFFF;text-align: center;padding: 20px 0;}
+
+.indiana .rob{position: absolute;width: 100%;height: 100%;background:rgba(0,0,0,0.5);top: 0;
+left: 0;}
+.indiana .rob .robbox{position: fixed;background: #FFFFFF;bottom: 0px;width: 100%;left: 0;height: 60%;}
+.indiana .rob .robbox .rob_tlt{position:relative;font-size: 3rem;text-align: center;color: #333333;padding: 20px 40px;}
+.indiana .rob .robbox .rob_tlt a{display: inline-block;position: absolute;right: 40px;bottom: 18px;}
+.indiana .rob .robbox .rob_tlt a i{font-size: 4rem;}
+.indiana .rob .robbox .jifen{padding: 20px 0;color: #06C1AE;text-align: center;font-size: 2rem;}
+.indiana .rob .robbox .add_num{color: #666666;text-align: center;}
+.indiana .rob .robbox .add_num span{margin: 0 13px;font-size: 3rem;border: 1px solid #999999;width: 100px;height: 50px;display: inline-block;line-height: 50px;}
+.indiana .rob .robbox .rob_txt{color: #999999;text-align: center;font-size: 2rem;padding: 30px 0;}
+.indiana .rob .robbox .sum_jf{color: #666666;text-align: center;font-size: 3rem;border-top: 1px solid #CCCCCC;padding: 30px 0 0 0;}
+.indiana .rob .robbox .sum_jf span{color: #FF6633;}
+.indiana .rob .robbox .okbtn {text-align: center;}
+.indiana .rob .robbox .okbtn a{background: #FF6633;color: #FFFFFF;display: inline-block;width: 80%;height: 60px;line-height: 60px;font-size: 3rem;margin: 30px 0;}
+.robcount{margin: 0 !important;text-align: center;padding: 20px 70px;position: relative;}
+.robcount a i{font-size: 4rem;color: #666666;}
+.robcount input{height: 60px;line-height: 60px;display: block;margin: 0 auto;width: 100%;text-align: center;font-size: 4rem;color: #06C1AE;}
+.robcount a{position:absolute;}
+.robcount a.plus{left: 80px;top: 30px;}
+.robcount a.reduce{right: 80px;top: 30px;}
+
+
+
+
+
+
 
 .youlike .like_tlt{background:#FFFFFF;color:#333333;font-size:2.4rem;margin:10px 0;}
 .youlike .like_tlt a{color:#999999}
